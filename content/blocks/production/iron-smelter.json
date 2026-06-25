@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "name": "Iron Smelter",
+  "description": "Smelts rust into iron.",
+  "size": 1,
+  "health": 80,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "rust/30"
+  ],
+  "researchCost": [
+    "rust/150"
+  ],
+  "craftEffect": "steam",
+  "research": "windmill",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "f47474"
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 1,
+  "outputItem": "iron/1",
+  "consumes": {
+    "power": 1.2,
+    "items": {
+      "items": [
+          {
+            "item": "rust",
+            "amount": 1
+          }
+        ]
+        }
+    },
+  "liquidCapacity": 0
+}
+

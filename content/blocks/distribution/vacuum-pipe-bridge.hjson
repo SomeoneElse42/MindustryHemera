@@ -1,0 +1,27 @@
+type: DuctBridge
+name: Vacuum Bridge
+health: 50
+size: 1
+range: 5
+speed: 4
+squareSprite: false
+description: Suspended vacuum pipe used for crossing terrain and blocks. The base conducts power.
+
+hasPower: true
+outputsPower: true
+consumes: {
+powerBuffered: 5
+}
+
+solid: false
+category: distribution
+requirements: [
+	rust/5,
+	iron/5
+]
+
+research: chute
+researchCost: [
+	rust/25
+	iron/25
+]

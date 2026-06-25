@@ -1,0 +1,22 @@
+type: DuctRouter
+name: Vacuum Router
+size: 1
+health: 100
+speed: 4
+category: distribution
+requirements: [
+	iron/10
+]
+	hasPower: true
+
+	outputsPower: true
+
+	consumes: {
+
+powerBuffered: 5
+}
+
+research: chute
+researchCost: [
+	iron/20
+]
