@@ -10,6 +10,7 @@
 "requirements": [
   "rust/6"
 ],
+"health": 30,
 "drillTime": 200,
 "itemCapacity": 10,
 "fogRadius": 2,

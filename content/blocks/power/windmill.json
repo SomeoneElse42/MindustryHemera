@@ -1,0 +1,30 @@
+{
+  "name": "Windmill",
+  "type": "ConsumeGenerator",
+  "requirements": [
+    "rust/10"
+  ],
+  "category": "power",
+  "health": 30,
+  "research": "core-drop",
+  "researchCost": [
+    "rust/50"
+  ],
+  "consumes": [
+  ],
+  "description": "Constantly produces power in the wind.",
+  "powerProduction": "0.8",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 3
+      }
+    ]
+  }
+}

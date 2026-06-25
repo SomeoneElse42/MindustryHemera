@@ -1,0 +1,17 @@
+type: Duct
+name: Vacuum Pipe
+description: Moves items forward. Conducts power.
+size: 1
+speed: 3
+health: 60
+isDuct: true
+category: distribution
+conductivePower: true
+requirements: [
+	iron/1
+]
+
+research: core-glint
+researchCost: [
+	iron/5
+]
