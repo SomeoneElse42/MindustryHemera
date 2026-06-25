@@ -1,0 +1,11 @@
+{
+"name": "Rust",
+  "description": "Hydrated iron oxide. Used for iron refinement and basic power generation.",
+  "color": "c0bbaa",
+  "hardness": 1,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}

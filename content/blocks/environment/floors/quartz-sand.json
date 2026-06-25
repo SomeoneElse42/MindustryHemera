@@ -1,0 +1,6 @@
+type: Floor
+name: "Quartz Sand"
+variants: 3
+tier: 1
+itemDrop: "sand"
+playerUnmineable: true

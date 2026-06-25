@@ -1,0 +1,11 @@
+{
+"name": "Iron",
+  "description": "A somewhat soft metal. Used for basic structure and logistics.",
+  "color": "c0bbaa",
+  "hardness": 3,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}

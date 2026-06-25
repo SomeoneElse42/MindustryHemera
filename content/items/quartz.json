@@ -1,0 +1,11 @@
+{
+"name": "Quartz",
+  "description": "Crystalline silica mineral. Used for electronics, mechanics and abrasives. Can be crushed into sand.",
+  "color": "fbfaf1",
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}

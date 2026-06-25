@@ -1,0 +1,11 @@
+{
+"name": "Osmium",
+  "description": "An extremely durable, dense and corrosion resistant metal. Used for heavy armor and structure.",
+  "color": "5b4d6e",
+  "hardness": 7,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}

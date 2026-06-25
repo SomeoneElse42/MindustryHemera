@@ -1,0 +1,92 @@
+localizedName: Hemera
+description: A barren, rusty planet.
+alwaysUnlocked: true
+mesh: [
+{
+  type: NoiseMesh
+  planet: hemera
+  divisions: 6
+  color1: b5765b
+  color2: a7674f
+  radius: 1.2
+  octaves: 3
+  persistence: 1.4
+  scl: 14
+  mag: 0.5
+  seed: 69
+}
+{
+  type: NoiseMesh
+  planet: hemera
+  divisions: 6
+  color1: c29382
+  color2: dbb5a6
+  radius: 1.2
+  octaves: 4
+  persistence: 0.5
+  scl: 14
+  mag: 0.4
+}
+]
+cloudMesh: [
+  {
+    type: HexSkyMesh
+    speed: 2
+    divisions: 6
+    radius: 0.07
+    color: b2310860
+    octaves: 2
+    persistence: 0.6
+    scl: 1.1
+    thresh: 0.5
+  },
+  {
+    type: HexSkyMesh
+    speed: 0.2
+    divisions: 6
+    radius: 0.1
+    color: c34b1860
+    octaves: 1
+    persistence: 0.1
+    scl: 1.1
+    thresh: 0.5
+  },
+  {
+    type: HexSkyMesh
+    speed: 3
+    divisions: 6
+    radius: 0.12
+    color: d4762b60
+    octaves: 5
+    persistence: 0.8
+    scl: 1.1
+    thresh: 0.5
+  }
+]
+defaultCore: core-shard
+generator: BlankPlanetGenerator
+clearSectorOnLose: true
+orbitTime: 500
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowWaveSimulation: true
+parent: sun
+visible: true
+radius: 1.2
+atmosphereColor: ba5d3060
+updateLighting: true
+bloom: true
+sectorSize: 2
+iconColor: bf7b00
+orbitRadius: 60
+orbitOffset: 130
+accessible: true
+allowLaunchToNumbered: false
+defaultEnv: 1
+
+research: {
+	planet: hemera
+	root: true
+	requiresUnlock: false
+	name: "Hemera"
+}

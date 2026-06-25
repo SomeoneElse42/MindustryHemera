@@ -1,0 +1,11 @@
+{
+"name": "Stainless Steel",
+  "description": "Steel with added chromium. Very corrosion resistant. Used for chemical containment and structure.",
+  "color": "3f94ad",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}

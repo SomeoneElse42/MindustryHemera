@@ -1,0 +1,60 @@
+type: flying
+
+name: Dragonfly
+description: Protects the Drop core. Can repair buildings.
+softShadowScl: 0.8
+speed: 4
+accel: 1.2
+rotateSpeed: 10
+drag: 0.3
+health: 300
+hitSize: 12
+itemCapacity: 60
+faceTarget: true
+outlineColor: 303541ff
+flying: true
+killable: false
+hittable: false
+targetable: false
+
+mineTier: 3
+mineWalls: true
+mineFloor: true
+mineRange: 100
+mineSpeed: 15
+buildRange: 300
+buildSpeed: 1
+
+weapons:[
+  {
+    type: RepairBeamWeapon
+    widthSinMag: 0.11
+    reload: 20
+    x: 0
+    y: 8
+    rotate: false
+    shootY: 0
+    beamWidth: 0.84
+    shootCone: 15
+    mirror: false
+    repairSpeed: 3
+    fractionRepairSpeed: 0.1
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    laserColor: 4accff
+    healColor: 4accff
+
+    bullet: {
+      type: BulletType
+      maxRange: 40
+    }
+  }
+]
+
+research: core-glint
+alwaysUnlocked: true
+immunities: [
+  "burning"
+]

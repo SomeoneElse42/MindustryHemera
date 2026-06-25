@@ -1,0 +1,10 @@
+{
+name: "hemera"
+displayName: "Hemera"
+author: SomeoneElse
+description: "Adds a new rusty red planet (inspired by Mars) with semi-realistic tech trees."
+version: "1.0"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false
+}

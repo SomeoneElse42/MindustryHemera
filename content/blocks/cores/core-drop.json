@@ -1,0 +1,28 @@
+type: CoreBlock
+name: "Core: Drop"
+requiresCoreZone: true
+category: effect
+health: 2500
+size: 3
+description: "Core of the base. Sector lost when destroyed."
+itemCapacity: 3000
+unitCapModifier: 10
+unitType: "dragonfly"
+teamPassable: true
+solid: true
+isFirstTier: true
+squareSprite: false
+
+requirements: [
+    "iron/1000"
+    "rust/500"
+    "silicon/1000"
+]
+
+alwaysUnlocked: true
+research: [
+    root: false
+    parent: hemera
+    planet: hemera
+    requiresUnlock: false
+    ]

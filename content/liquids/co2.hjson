@@ -1,0 +1,12 @@
+type: Liquid
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.5
+viscosity: 0.2
+temperature: 0.5
+color: "dfd9d2"
+name: "Carbon Dioxide"
+gas: true,
+coolant: true,
+description: "The most common gas in Hemera's atmosphere. Can be refined into carbon."
+shownPlanets: ["hemera"]
