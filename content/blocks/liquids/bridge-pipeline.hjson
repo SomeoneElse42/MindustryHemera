@@ -1,7 +1,8 @@
 type: LiquidBridge
 name: Pipeline Bridge
 health: 120
-description: Suspended pipeline used for crossing terrain and blocks.
+description: Suspended pipeline used for crossing terrain and blocks. Conducts power.
+conductivePower: true
 arrowSpacing: 5
 range: 3
 liquidPressure: 20

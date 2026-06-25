@@ -2,6 +2,7 @@
   "type": "liquidJunction",
   "name": "Pipeline Junction",
   "description": "Acts as a junction for liquid pipelines.",
+  "conductivePower": true,
   "health": 120,
   "liquidPressure": 20,
   "requirements": [

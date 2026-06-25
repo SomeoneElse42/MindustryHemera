@@ -1,10 +1,11 @@
 {
   "type": "conduit",
   "name": "Pipeline",
-  "description": "Moves liquids forward.",
+  "description": "Moves liquids forward. Conducts power.",
   "health": 120,
   "liquidPressure": 20,
   "botColor": "568ba0",
+  "conductivePower": true,
   "requirements": [
     {
       "item": "glass",

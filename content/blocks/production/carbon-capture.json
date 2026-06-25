@@ -41,6 +41,7 @@
   "ambientSound": "loopMachineSpin",
   "ambientSoundVolume": 1,
   "outputLiquid": "co2/0.2",
+  "conductivePower": true,
   "consumes": {
     "power": 1.8
     },

@@ -32,6 +32,7 @@
   "ambientSound": "loopSmelter",
   "ambientSoundVolume": 1,
   "outputItem": "iron/1",
+  "conductivePower": true,
   "consumes": {
     "power": 1.2,
     "items": {
