@@ -1,0 +1,19 @@
+{
+  "type": "conduit",
+  "name": "Pipeline",
+  "description": "Moves liquids forward.",
+  "health": 120,
+  "liquidPressure": 20,
+  "botColor": "431950",
+  "requirements": [
+    {
+      "item": "glass",
+      "amount": 2
+    }
+  ],
+  "placeableLiquid": true,
+  "category": "liquid",
+  "research": "core-drop",
+  "bridgeReplacement": "bridge-pipeline",
+  "junctionReplacement": "pipeline-junction"
+}

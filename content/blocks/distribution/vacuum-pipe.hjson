@@ -6,6 +6,7 @@ health: 30
 speed: 4
 hasPower: true
 outputsPower: true
+bridgeReplacement: vacuum-pipe-bridge
 consumes: {
 	powerBuffered: 5
 }

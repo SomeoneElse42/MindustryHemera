@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Carbon Capture",
+  "description": "Captures CO2 from the atmosphere.",
+  "size": 2,
+  "health": 120,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "iron/30"
+  ],
+  "researchCost": [
+    "iron/150"
+  ],
+  "craftEffect": "steam",
+  "research": "iron-smelter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "co2",
+        "padding": 2
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 9
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopMachineSpin",
+  "ambientSoundVolume": 1,
+  "outputLiquid": "co2/0.2",
+  "consumes": {
+    "power": 1.8
+    },
+  "liquidCapacity": 24
+}
+

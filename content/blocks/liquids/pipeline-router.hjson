@@ -1,0 +1,21 @@
+type: LiquidRouter
+name: Pipeline Router
+size: 1
+health: 120
+placeableLiquid: true
+liquidCapacity: 100
+liquidPressure: 20
+squareSprite: false
+liquidPadding: 2
+
+category: liquid
+requirements: [
+	glass/5
+  iron/3
+]
+
+research: pipeline
+researchCost: [
+	glass/25
+  iron/15
+]

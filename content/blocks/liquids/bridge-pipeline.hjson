@@ -1,0 +1,14 @@
+type: LiquidBridge
+name: Pipeline Bridge
+health: 120
+description: Suspended pipeline used for crossing terrain and blocks.
+arrowSpacing: 5
+range: 3
+liquidPressure: 20
+hasPower: false
+category: liquid
+research: pipeline
+requirements: [
+  glass/6
+  iron/2
+]

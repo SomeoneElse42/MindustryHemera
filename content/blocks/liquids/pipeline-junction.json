@@ -1,0 +1,16 @@
+{
+  "type": "liquidJunction",
+  "name": "Pipeline Junction",
+  "description": "Acts as a junction for liquid pipelines.",
+  "health": 120,
+  "liquidPressure": 20,
+  "requirements": [
+    {
+      "item": "glass",
+      "amount": 3
+    }
+  ],
+  "placeableLiquid": true,
+  "category": "liquid",
+  "research": "pipeline"
+}

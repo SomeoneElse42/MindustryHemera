@@ -1,0 +1,11 @@
+{
+"name": "Glass",
+  "description": "Brittle, amorphous silica. Chemically inert. Used as container for liquids.",
+  "color": "caf5e7",
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}
