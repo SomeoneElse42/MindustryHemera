@@ -1,4 +1,5 @@
 type: OreBlock
 variants: 2
 itemDrop: "rust"
+name: "Rust Spherules"
 tier: 3
