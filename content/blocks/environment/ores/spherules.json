@@ -1,0 +1,4 @@
+type: OreBlock
+variants: 2
+itemDrop: "rust"
+tier: 3

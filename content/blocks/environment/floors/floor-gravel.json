@@ -1,6 +1,6 @@
 type: Floor
 name: "Rusty Gravel"
 variants: 3
-tier: 1
+tier: 3
 itemDrop: "rust"
 playerUnmineable: true
