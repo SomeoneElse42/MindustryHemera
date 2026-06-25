@@ -4,7 +4,7 @@
   "description": "Moves liquids forward.",
   "health": 120,
   "liquidPressure": 20,
-  "botColor": "431950",
+  "botColor": "568ba0",
   "requirements": [
     {
       "item": "glass",
