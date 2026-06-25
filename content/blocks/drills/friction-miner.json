@@ -1,0 +1,47 @@
+
+"type": "Drill",
+"name": "Friction Miner",
+"description": "Mines basic ground resources using friction.",
+"size": 1,
+"squareSprite": false,
+"category": "production",
+"research": "core-drop",
+"conductivePower": true,
+"requirements": [
+  "rust/6"
+],
+"drillTime": 200,
+"itemCapacity": 10,
+"fogRadius": 2,
+"consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.02,
+      "optional": true,
+      "booster": true
+    }
+},
+
+"consumes": {
+  "power": 0.1,
+  "liquid": {
+    "liquid": "water",
+    "amount": 0.02,
+    "optional": true,
+    "booster": true
+  }
+},
+
+  "ambientSound": "drill",
+  "ambientSoundVolume": 0.05
+"tier":3
+
+"researchCost": [
+  "iron/30"
+  ],
+research: [
+    parent: core-drop
+    planet: hemera
+    requiresUnlock: false
+    name: "Friction Miner"
+    ]
