@@ -1,5 +1,5 @@
 type: Floor
-name: "Rusty Regolith"
+name: "Rusty Stone"
 variants: 3
 tier: 3
 itemDrop: "rust"
