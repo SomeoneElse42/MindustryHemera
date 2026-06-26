@@ -2,7 +2,7 @@
 "name": "Perchlorate",
   "description": "A corrosive salt. Used for chemical processing, ammunition and atmospheric water extraction.",
   "color": "ccc675",
-  "hardness": 3,
+  "hardness": 4,
   "flammability": 0.5,
   "explosiveness": 0,
   "radioactivity": 0,
