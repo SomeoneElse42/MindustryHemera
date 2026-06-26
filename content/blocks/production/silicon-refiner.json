@@ -1,0 +1,54 @@
+{
+  "type": "GenericCrafter",
+  "name": "Silicon Refiner",
+  "description": "Refines silicon from sand using graphite. Requires perchlorate as an additional energy source. Outputs carbon dioxide that can be recycled.",
+  "size": 2,
+  "health": 210,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "iron/20",
+    "steel/20",
+    "graphite/10"
+  ],
+  "researchCost": [
+    "iron/100",
+    "steel/100",
+    "graphite/50"
+  ],
+  "craftEffect": "steam",
+  "research": "steel-foundry",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "f4f0e7"
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 1,
+  "outputItem": "silicon/1",
+  "outputLiquid": "co2/0.2",
+  "conductivePower": true,
+  "consumes": {
+    "power": 1.2,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "co2",
+          "amount": 0.2
+        }
+      ]
+    }
+  },
+  "liquidCapacity": 24
+}
+
