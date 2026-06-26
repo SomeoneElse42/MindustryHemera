@@ -1,0 +1,52 @@
+{
+  "type": "GenericCrafter",
+  "name": "Steel Foundry",
+  "description": "Smelts steel from iron and graphite.",
+  "size": 2,
+  "health": 210,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "rust/5",
+    "iron/15",
+    "graphite/10"
+  ],
+  "researchCost": [
+    "rust/25",
+    "iron/75",
+    "graphite/50"
+  ],
+  "craftEffect": "smeltsmoke",
+  "research": "iron-smelter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "f48b74",
+        "alpha": 1
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 1,
+  "outputItem": "steel/2",
+  "conductivePower": true,
+  "consumes": {
+    "power": 2.1,
+    "items": {
+      "items": [
+          "iron/2",
+          "graphite/1"
+        ]
+      }
+    },
+  "liquidCapacity": 0
+}
+
