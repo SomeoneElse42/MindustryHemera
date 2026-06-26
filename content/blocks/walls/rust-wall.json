@@ -11,8 +11,4 @@
 "researchCost": [
   "rust/80"
   ],
-"research": [
-  "parent": "core-drop"
-  "planet": "hemera"
-  "requiresUnlock": "true"
-  ],
+"research": "core-drop",

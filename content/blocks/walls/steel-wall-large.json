@@ -11,8 +11,4 @@
 "researchCost": [
   "steel/320"
   ],
-"research": [
-  "parent": "steel-wall"
-  "planet": "hemera"
-  "requiresUnlock": "true"
-  ],
+"research": "steel-wall",

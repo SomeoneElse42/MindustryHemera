@@ -11,8 +11,4 @@
 "researchCost": [
   "iron/80"
   ],
-"research": [
-  "parent": "rust-wall"
-  "planet": "hemera"
-  "requiresUnlock": "true"
-  ],
+"research": "rust-wall",
