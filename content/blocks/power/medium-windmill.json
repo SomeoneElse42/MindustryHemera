@@ -1,0 +1,32 @@
+{
+  "name": "Medium Windmill",
+  "type": "ConsumeGenerator",
+  "requirements": [
+    "iron/15",
+    "glass/8"
+  ],
+  "category": "power",
+  "health": 30,
+  "research": "windmill",
+  "researchCost": [
+    "iron/75",
+    "glass/40"
+  ],
+  "consumes": [
+  ],
+  "description": "Constantly produces power in the wind. Produces slightly more than the small windmill.",
+  "powerProduction": "4.2",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 2
+      }
+    ]
+  }
+}
