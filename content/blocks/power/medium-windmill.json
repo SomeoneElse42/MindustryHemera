@@ -1,6 +1,7 @@
 {
   "name": "Medium Windmill",
   "type": "ConsumeGenerator",
+  "size": 2,
   "requirements": [
     "iron/15",
     "glass/8"
@@ -15,7 +16,7 @@
   "consumes": [
   ],
   "description": "Constantly produces power in the wind. Produces slightly more than the small windmill.",
-  "powerProduction": "4.2",
+  "powerProduction": "4.1",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
