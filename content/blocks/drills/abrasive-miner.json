@@ -1,0 +1,42 @@
+
+"type": "Drill",
+"name": "Abrasive Miner",
+"description": "Advanced miner. Uses abrasive quartz to mine harder resources such as perchlorate and chromium.",
+"size": 2,
+"squareSprite": false,
+"category": "production",
+"research": "core-drop",
+"conductivePower": true,
+"requirements": [
+"steel/6", "quartz/6"
+],
+"health": 30,
+"drillTime": 180,
+"itemCapacity": 10,
+"fogRadius": 2,
+"consumes": {
+"liquid": {
+"liquid": "water",
+"amount": 0.02,
+"optional": true,
+"booster": true
+}
+},
+
+"consumes": {
+"power": 0.1,
+"liquid": {
+"liquid": "water",
+"amount": 0.02,
+"optional": true,
+"booster": true
+}
+},
+
+"ambientSound": "loopGrind",
+"ambientSoundVolume": 0.05,
+"tier":5,
+
+"researchCost": [
+"steel/30", "quartz/30"
+],

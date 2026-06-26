@@ -2,7 +2,7 @@
 "name": "Carbon Steel",
   "description": "Iron alloyed with carbon. Harder and more corrosion resistant than pure iron. Used for most structure.",
   "color": "5e5450",
-  "hardness": 4,
+  "hardness": 5,
   "flammability": 0,
   "explosiveness": 0,
   "radioactivity": 0,

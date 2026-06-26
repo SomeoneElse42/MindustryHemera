@@ -34,11 +34,11 @@
 },
 
   "ambientSound": "loopGrind",
-  "ambientSoundVolume": 0.05
-"tier":3
+  "ambientSoundVolume": 0.05,
+"tier":3,
 
 "researchCost": [
-  "iron/30"
+  "rust/30"
   ],
 research: [
     parent: core-drop

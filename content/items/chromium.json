@@ -2,7 +2,7 @@
 "name": "Chromium",
   "description": "A reflective and corrosion resistant metal. Used for steelmaking and as a chemical catalyst, as well as reflective walls.",
   "color": "add3d6",
-  "hardness": 4,
+  "hardness": 5,
   "flammability": 0,
   "explosiveness": 0,
   "radioactivity": 0,
