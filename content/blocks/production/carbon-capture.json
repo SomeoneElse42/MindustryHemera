@@ -3,15 +3,17 @@
   "name": "Carbon Capture",
   "description": "Captures CO2 from the atmosphere.",
   "size": 2,
-  "health": 120,
+  "health": 180,
   "squareSprite": false,
   "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
-    "iron/30"
+    "iron/30",
+    "glass/10"
   ],
   "researchCost": [
-    "iron/150"
+    "iron/150",
+    "glass/50"
   ],
   "craftEffect": "steam",
   "research": "iron-smelter",
@@ -43,7 +45,7 @@
   "outputLiquid": "co2/0.2",
   "conductivePower": true,
   "consumes": {
-    "power": 1.8
+    "power": 1.4
     },
   "liquidCapacity": 24
 }

@@ -1,20 +1,22 @@
 {
   "type": "GenericCrafter",
-  "name": "Iron Smelter",
-  "description": "Smelts rust into iron.",
-  "size": 1,
-  "health": 80,
+  "name": "Glass Kiln",
+  "description": "Melts sand and solidifies it into glass.",
+  "size": 2,
+  "health": 160,
   "squareSprite": false,
   "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
-    "rust/12"
+    "rust/6",
+    "iron/15"
   ],
   "researchCost": [
-    "rust/60"
+    "rust/30",
+    "iron/75"
   ],
   "craftEffect": "steam",
-  "research": "windmill",
+  "research": "iron-smelter",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -22,23 +24,24 @@
         "type": "DrawDefault"
       },
       {
-        "type": "DrawGlowRegion",
-        "suffix": "-glow",
-        "color": "f47474"
+        "type": "DrawFlame",
+        "midColor": "f0975f",
+        "flameColor": "ec4439",
+        "suffix": "-top"
       }
     ]
   },
   "craftTime": 60,
   "ambientSound": "loopSmelter",
   "ambientSoundVolume": 1,
-  "outputItem": "iron/1",
+  "outputItem": "glass/1",
   "conductivePower": true,
   "consumes": {
-    "power": 1.2,
+    "power": 1.8,
     "items": {
       "items": [
           {
-            "item": "rust",
+            "item": "sand",
             "amount": 1
           }
         ]
