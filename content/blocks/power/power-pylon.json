@@ -1,0 +1,32 @@
+{
+  "type": "PowerNode",
+  "health": "20",
+  "laserRange": 5,
+  "maxNodes": 3,
+  "name": "Power Pylon",
+  "description": "Connects power structures over short ranges.",
+  "squareSprite": "false",
+  "requirements": [
+    {
+        "item": "iron",
+        "amount": 2
+      },
+    {
+        "item": "glass",
+        "amount": 1
+     }
+  ],
+  "researchCost": [
+    {
+        "item": "iron",
+        "amount": 10
+      },
+    {
+        "item": "glass",
+        "amount": 5
+     }
+  ],
+  "category": "power",
+  "powerCapacity": "1000",
+  "laserColor2": "96ddda"
+}
