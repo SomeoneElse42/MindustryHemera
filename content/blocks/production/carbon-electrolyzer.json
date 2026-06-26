@@ -1,0 +1,61 @@
+{
+  "type": "GenericCrafter",
+  "name": "Carbon Electrolyzer",
+  "description": "Splits carbon dioxide into carbon and oxygen.",
+  "size": 2,
+  "health": 180,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "iron/20",
+    "glass/20"
+  ],
+  "researchCost": [
+    "iron/100",
+    "glass/100"
+  ],
+  "craftEffect": "steam",
+  "research": "carbon-capture",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "co2",
+        "padding": 2
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "f4f0e7"
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopElectricHum",
+  "ambientSoundVolume": 1,
+  "outputItem": "graphite/1",
+  "outputLiquid": "oxygen/0.1",
+  "conductivePower": true,
+  "consumes": {
+    "power": 1.4,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "co2",
+          "amount": 0.2
+        }
+      ]
+    }
+  },
+  "liquidCapacity": 24
+}
+

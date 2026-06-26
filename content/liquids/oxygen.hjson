@@ -4,9 +4,9 @@ flammability: 1
 heatCapacity: 0.5
 viscosity: 0.4
 temperature: 0.5
-color: "00ffff"
+color: "44f1ff"
 name: "Oxygen"
 gas: true,
 coolant: false,
-description: "An extremely reactive and slightly corrosive gas, primarily used as an oxidizer in various reactions."
+description: "An extremely reactive and corrosive gas, primarily used as an oxidizer in various reactions."
 shownPlanets: ["hemera"]
