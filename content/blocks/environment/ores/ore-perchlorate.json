@@ -1,5 +1,5 @@
 type: OreBlock
 variants: 2
 itemDrop: "perchlorate"
-tier: 3
+tier: 4
 playerUnmineable: true
