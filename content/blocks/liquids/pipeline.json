@@ -6,11 +6,13 @@
   "liquidPressure": 20,
   "botColor": "4b5964",
   "conductivePower": true,
+  "hasPower": true,
+  "consumes": {
+    "powerBuffered": 5
+  },
   "requirements": [
-    {
-      "item": "glass",
-      "amount": 2
-    }
+      "glass/1",
+      "iron/1"
   ],
   "placeableLiquid": true,
   "category": "liquid",

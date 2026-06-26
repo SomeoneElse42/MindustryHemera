@@ -3,12 +3,20 @@
   "name": "Pipeline Junction",
   "description": "Acts as a junction for liquid pipelines.",
   "conductivePower": true,
+  "hasPower": true,
+  "consumes": {
+    "powerBuffered": 5
+  },
   "health": 120,
   "liquidPressure": 20,
   "requirements": [
     {
       "item": "glass",
-      "amount": 3
+      "amount": 1
+    },
+    {
+      "item": "iron",
+      "amount": 2
     }
   ],
   "placeableLiquid": true,

@@ -1,6 +1,12 @@
 type: LiquidRouter
 name: Pipeline Router
 conductivePower: true
+hasPower: true
+outputsPower: true
+bridgeReplacement: vacuum-pipe-bridge
+consumes: {
+powerBuffered: 5
+}
 size: 1
 health: 120
 placeableLiquid: true
