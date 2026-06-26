@@ -13,7 +13,7 @@
   "researchCost": [
     "rust/60"
   ],
-  "craftEffect": "steam",
+  "craftEffect": "smeltsmoke",
   "research": "windmill",
   "drawer": {
     "type": "DrawMulti",
