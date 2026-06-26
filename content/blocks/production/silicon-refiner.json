@@ -35,17 +35,15 @@
   "craftTime": 60,
   "ambientSound": "loopSmelter",
   "ambientSoundVolume": 1,
-  "outputItem": "silicon/1",
+  "outputItem": "silicon/2",
   "outputLiquid": "co2/0.2",
   "conductivePower": true,
   "consumes": {
     "power": 1.2,
-    "liquids": {
-      "liquids": [
-        {
-          "liquid": "co2",
-          "amount": 0.2
-        }
+    "items": {
+      "items": [
+        "sand/2",
+        "graphite/1"
       ]
     }
   },
