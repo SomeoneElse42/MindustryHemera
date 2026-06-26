@@ -1,0 +1,58 @@
+{
+  "type": "GenericCrafter",
+  "name": "Stainless Steel Foundry",
+  "description": "Smelts stainless steel from iron, graphite, chromium and perchlorate.",
+  "size": 2,
+  "health": 350,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "steel/10",
+    "chromium/5",
+    "silicon/15",
+    "iron/15",
+    "graphite/10"
+  ],
+  "researchCost": [
+    "steel/50",
+    "chromium/25",
+    "silicon/75",
+    "iron/75",
+    "graphite/50"
+  ],
+  "craftEffect": "smeltsmoke",
+  "research": "steel-foundry",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "f48b74",
+        "alpha": 1
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 1,
+  "outputItem": "stainless-steel/2",
+  "conductivePower": true,
+  "consumes": {
+    "power": 3.5,
+    "items": {
+      "items": [
+          "iron/3",
+          "graphite/1",
+          "chromium/1",
+          "perchlorate/1"
+        ]
+      }
+    },
+  "liquidCapacity": 0
+}
+
