@@ -24,10 +24,9 @@
         "type": "DrawDefault"
       },
       {
-        "type": "DrawFlame",
-        "midColor": "f0975f",
-        "flameColor": "ec4439",
-        "suffix": "-top"
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "f47474"
       }
     ]
   },
