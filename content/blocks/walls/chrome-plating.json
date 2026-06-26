@@ -12,10 +12,6 @@
   "chromium/80"
   ],
 
-"research": [
-  "parent": "steel-wall",
-  "planet": "hemera",
-  "requiresUnlock": "true",
-  ],
+"research": "steel-wall",
 
 "chanceDeflect": 8

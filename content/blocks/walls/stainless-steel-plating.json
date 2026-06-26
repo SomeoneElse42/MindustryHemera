@@ -12,10 +12,6 @@
   "stainless-steel/80"
   ],
 
-"research": [
-  "parent": "chrome-plating",
-  "planet": "hemera",
-  "requiresUnlock": "true",
-  ],
+"research": "chrome-plating",
 
 "chanceDeflect": 6
