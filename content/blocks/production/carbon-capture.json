@@ -16,7 +16,7 @@
     "glass/50"
   ],
   "craftEffect": "steam",
-  "research": "iron-smelter",
+  "research": "glass-kiln",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [

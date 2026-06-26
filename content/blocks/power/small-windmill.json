@@ -1,5 +1,5 @@
 {
-  "name": "Windmill",
+  "name": "Small Windmill",
   "type": "ConsumeGenerator",
   "requirements": [
     "rust/10"

@@ -14,7 +14,7 @@
     "rust/60"
   ],
   "craftEffect": "smeltsmoke",
-  "research": "windmill",
+  "research": "small-windmill",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
