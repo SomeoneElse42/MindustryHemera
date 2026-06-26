@@ -1,0 +1,21 @@
+"type": "Wall",
+"name": "Stainless Steel Plating",
+"description": "Protects structures from enemy projectiles. Reflects some projectiles on impact.",
+"size": 1,
+"category": "defense",
+"requirements": [
+  "stainless-steel/6"
+]
+"health": 520,
+"buildTime": 0.5,
+"researchCost": [
+  "stainless-steel/80"
+  ],
+
+"research": [
+  "parent": "chrome-plating",
+  "planet": "hemera",
+  "requiresUnlock": "true",
+  ],
+
+"chanceDeflect": 6

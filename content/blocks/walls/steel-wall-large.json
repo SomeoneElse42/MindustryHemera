@@ -4,12 +4,12 @@
 "size": 2,
 "category": "defense",
 "requirements": [
-  "iron/24"
+  "steel/24"
 ]
 "health": 1840,
 "buildTime": 2,
 "researchCost": [
-  "iron/320"
+  "steel/320"
   ],
 "research": [
   "parent": "steel-wall"
