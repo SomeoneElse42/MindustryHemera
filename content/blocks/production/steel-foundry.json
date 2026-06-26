@@ -39,7 +39,7 @@
   "outputItem": "steel/2",
   "conductivePower": true,
   "consumes": {
-    "power": 2.1,
+    "power": 2.2,
     "items": {
       "items": [
           "iron/2",
