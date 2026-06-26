@@ -1,0 +1,18 @@
+"type": "Wall",
+"name": "Iron Wall",
+"description": "Protects structures from enemy projectiles.",
+"size": 1,
+"category": "defense",
+"requirements": [
+  "iron/6"
+]
+"health": 240,
+"buildTime": 0.5,
+"researchCost": [
+  "iron/80"
+  ],
+"research": [
+  "parent": "rust-wall"
+  "planet": "hemera"
+  "requiresUnlock": "true"
+  ],

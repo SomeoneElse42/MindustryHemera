@@ -1,0 +1,18 @@
+"type": "Wall",
+"name": "Large Rust Wall",
+"description": "Protects structures from enemy projectiles.",
+"size": 2,
+"category": "defense",
+"requirements": [
+  "iron/24"
+]
+"health": 480,
+"buildTime": 2,
+"researchCost": [
+  "iron/320"
+  ],
+"research": [
+  "parent": "rust-wall"
+  "planet": "hemera"
+  "requiresUnlock": "true"
+  ],

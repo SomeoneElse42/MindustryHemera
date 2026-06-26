@@ -1,0 +1,21 @@
+"type": "Wall",
+"name": "Large Chrome Plating",
+"description": "Protects structures from enemy projectiles. Reflects some projectiles on impact.",
+"size": 1,
+"category": "defense",
+"requirements": [
+  "chromium/24"
+]
+"health": 1360,
+"buildTime": 0.5,
+"researchCost": [
+  "chromium/320"
+  ],
+
+"research": [
+  "parent": "chrome-plating",
+  "planet": "hemera",
+  "requiresUnlock": "true",
+  ],
+
+"chanceDeflect": 8

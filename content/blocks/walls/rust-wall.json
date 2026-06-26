@@ -1,0 +1,18 @@
+"type": "Wall",
+"name": "Rust Wall",
+"description": "Protects structures from enemy projectiles.",
+"size": 1,
+"category": "defense",
+"requirements": [
+  "rust/6"
+]
+"health": 120,
+"buildTime": 0.5,
+"researchCost": [
+  "rust/80"
+  ],
+"research": [
+  "parent": "core-drop"
+  "planet": "hemera"
+  "requiresUnlock": "true"
+  ],

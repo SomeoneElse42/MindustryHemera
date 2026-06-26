@@ -1,0 +1,21 @@
+"type": "Wall",
+"name": "Chrome Plating",
+"description": "Protects structures from enemy projectiles. Reflects some projectiles on impact.",
+"size": 1,
+"category": "defense",
+"requirements": [
+  "chromium/6"
+]
+"health": 340,
+"buildTime": 0.5,
+"researchCost": [
+  "chromium/80"
+  ],
+
+"research": [
+  "parent": "steel-wall",
+  "planet": "hemera",
+  "requiresUnlock": "true",
+  ],
+
+"chanceDeflect": 8
