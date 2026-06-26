@@ -4,7 +4,7 @@
   "description": "Moves liquids forward. Conducts power.",
   "health": 120,
   "liquidPressure": 20,
-  "botColor": "568ba0",
+  "botColor": "4b5964",
   "conductivePower": true,
   "requirements": [
     {
