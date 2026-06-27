@@ -1,0 +1,18 @@
+{
+  "name": "Small Photovoltaic Cell",
+  "type": "SolarGenerator",
+  "size": 3,
+  "requirements": [
+    "stainless-steel/16",
+    "silicon/50"
+  ],
+  "category": "power",
+  "health": 30,
+  "research": "small-windmill",
+  "researchCost": [
+    "stainless-steel/80",
+    "silicon/250"
+  ],
+  "description": "Constantly produces power in the sun. Peaks higher than the windmill but doesn't work at night.",
+  "powerProduction": "7.4"
+}

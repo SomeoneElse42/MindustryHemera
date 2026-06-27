@@ -1,0 +1,17 @@
+{
+  "name": "Small Photovoltaic Cell",
+  "type": "SolarGenerator",
+  "requirements": [
+    "iron/8",
+    "silicon/10"
+  ],
+  "category": "power",
+  "health": 30,
+  "research": "small-windmill",
+  "researchCost": [
+    "iron/40",
+    "silicon/50"
+  ],
+  "description": "Constantly produces power in the sun. Peaks higher than the windmill but doesn't work at night.",
+  "powerProduction": "1.5"
+}
