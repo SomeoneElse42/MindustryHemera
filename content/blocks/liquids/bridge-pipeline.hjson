@@ -10,7 +10,7 @@ consumes: {
 powerBuffered: 5
 }
 arrowSpacing: 5
-range: 3
+range: 5
 liquidPressure: 20
 hasPower: false
 category: liquid

@@ -1,0 +1,15 @@
+type: OverflowDuct
+name: Underflow Vacuum Pipe
+invert: true
+size: 1
+health: 100
+speed: 4
+category: distribution
+requirements: [
+	iron/10
+]
+
+research: overflow-vacuum-pipe
+researchCost: [
+	iron/20
+]
