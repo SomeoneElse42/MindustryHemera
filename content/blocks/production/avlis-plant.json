@@ -40,7 +40,7 @@
   "craftTime": 60,
   "ambientSound": "loopSmelter",
   "ambientSoundVolume": 1,
-  "outputItems": ["uranium/depleted/2", "uranium-enriched/1"],
+  "outputItems": ["uranium-depleted/2", "uranium-enriched/1"],
   "itemCapacity": 16,
   "conductivePower": true,
   "consumes": {
