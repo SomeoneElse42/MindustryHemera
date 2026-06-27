@@ -1,0 +1,11 @@
+{
+"name": "Uranium",
+  "description": "Extremely radioactive uranium. Used for nuclear power plants and weapons.",
+  "color": "b7e37d",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0.8,
+  "radioactivity": 1,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}

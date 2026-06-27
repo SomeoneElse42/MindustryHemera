@@ -1,0 +1,11 @@
+{
+"name": "Depleted Uranium",
+  "description": "Less radioactive uranium. Used for durable structures, shields and piercing ammunition.",
+  "color": "67b9a4",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0.1,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}
