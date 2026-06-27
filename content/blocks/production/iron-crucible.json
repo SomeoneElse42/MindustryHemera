@@ -1,0 +1,59 @@
+{
+  "type": "GenericCrafter",
+  "name": "Glass Kiln",
+  "description": "Smelts multiple iron ingots at once. Requires perchlorate and oxygen as an additional energy source.",
+  "size": 2,
+  "health": 160,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "chromium/10",
+    "steel/15",
+    "graphite/10"
+  ],
+  "researchCost": [
+    "chromium/50",
+    "steel/75",
+    "graphite/50"
+  ],
+  "craftEffect": "smeltsmoke",
+  "research": "iron-smelter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "f48b74"
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 1,
+  "outputItem": "iron/8",
+  "itemCapacity": 16,
+  "conductivePower": true,
+  "consumes": {
+    "power": 4.6,
+    "items": {
+      "items": [
+          "rust/8",
+          "perchlorate/2"
+        ]
+        },
+    "liquids": {
+      "liquids": [
+          "oxygen/0.1"
+      ]
+    }
+
+    },
+
+  "liquidCapacity": 24
+}
+

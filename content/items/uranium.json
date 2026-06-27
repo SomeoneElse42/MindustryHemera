@@ -2,7 +2,7 @@
 "name": "Uranium",
   "description": "An extremely radioactive heavy metal. Used in nuclear power production and weapons.",
   "color": "60a861",
-  "hardness": 4,
+  "hardness": 5,
   "flammability": 0,
   "explosiveness": 1,
   "radioactivity": 1,
