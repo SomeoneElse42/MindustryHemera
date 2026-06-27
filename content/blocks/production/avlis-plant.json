@@ -1,0 +1,58 @@
+{
+  "type": "GenericCrafter",
+  "name": "AVLIS Plant",
+  "description": "Separates uranium into enriched and depleted uranium.",
+  "size": 2,
+  "health": 480,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "iron/15",
+    "stainless-steel/20",
+    "graphite/5",
+    "glass/10",
+    "silicon/10"
+  ],
+  "researchCost": [
+    "iron/75",
+    "stainless-steel/200",
+    "graphite/25",
+    "glass/50",
+    "silicon/50"
+  ],
+  "craftEffect": "smeltsmoke",
+  "research": "stainless-steel-foundry",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "4dff87",
+        "alpha": 1
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 1,
+  "outputItems": ["uranium/depleted/2", "uranium-enriched/1"],
+  "itemCapacity": 16,
+  "conductivePower": true,
+  "consumes": {
+    "power": 3.2,
+    "items": {
+      "items": [
+          "uranium/3",
+          "perchlorate/2"
+        ]
+        }
+    },
+
+  "liquidCapacity": 24
+}
+
