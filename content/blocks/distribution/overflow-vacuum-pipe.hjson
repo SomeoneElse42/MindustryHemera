@@ -8,6 +8,13 @@ requirements: [
 	iron/10
 ]
 
+conductivePower: true
+outputsPower: true
+bridgeReplacement: vacuum-pipe-bridge
+consumes: {
+powerBuffered: 5
+}
+
 research: vacuum-pipe-router
 researchCost: [
 	iron/20
