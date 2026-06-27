@@ -4,7 +4,7 @@
   "color": "60a861",
   "hardness": 5,
   "flammability": 0,
-  "explosiveness": 1,
+  "explosiveness": 0.5,
   "radioactivity": 0.6,
   "charge": 0,
   "shownPlanets": ["hemera"]
