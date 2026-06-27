@@ -1,11 +1,11 @@
 {
 "name": "Uranium",
-  "description": "An extremely radioactive heavy metal. Used in nuclear power production and weapons.",
+  "description": "A radioactive heavy metal. Can be enriched to be used in nuclear power production and weapons.",
   "color": "60a861",
   "hardness": 5,
   "flammability": 0,
   "explosiveness": 1,
-  "radioactivity": 1,
+  "radioactivity": 0.6,
   "charge": 0,
   "shownPlanets": ["hemera"]
 }

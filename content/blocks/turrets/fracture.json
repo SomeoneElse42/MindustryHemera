@@ -1,0 +1,95 @@
+{
+  "type": "ItemTurret",
+  "name": "Fracture",
+  "description": "Shoots fracturing bullets at enemies.",
+  "health": 350,
+  "reload": 40,
+  "range": 120,
+  "size": 2,
+  "category": "turret",
+  "requirements": [
+    "quartz/10",
+    "iron/15"
+  ],
+  "researchCost": [
+    "quartz/50",
+    "iron/75"
+  ],
+
+  "shoot": {
+    "type": "ShootSpread",
+    "shots": 3,
+    "shotDelay": 0,
+    "shotSpread": 5
+  },
+
+  "squareSprite": false,
+  "targetAir": true,
+  "targetGround": true,
+  "inaccuracy": 10,
+  "recoil": 2,
+  "consumes": {
+    "coolant": {
+      "amount": 0.1,
+      "allowGas": true
+    }
+  },
+  "coolantMultiplier": 12,
+
+  "maxAmmo": 15,
+  "ammoTypes": {
+    "rust": {
+      "lifetime": 30,
+      "speed": 4,
+      "type": "BasicBulletType",
+      "ammoMultiplier": 3,
+      "shootEffect": "shootSmall",
+      "width": 8,
+      "damage": 8,
+      "height": 14,
+
+      "frontColor": "ffe664",
+      "backColor": "ff9c43",
+
+      "fragBullets": 4,
+      "fragBullet": {
+        "width": 3,
+        "height": 8,
+        "damage": 3,
+        "lifetime": 20,
+        "frontColor": "ff9c43",
+        "backColor": "ffe664",
+        "despawnEffect": "none"
+      }
+    },
+    "quartz": {
+      "lifetime": 30,
+      "speed": 4,
+      "type": "BasicBulletType",
+      "ammoMultiplier": 3,
+      "shootEffect": "shootSmall",
+      "width": 8,
+      "damage": 12,
+      "height": 14,
+
+      "frontColor": "f6f3e2",
+      "backColor": "eee7d2",
+
+      "fragBullets": 4,
+      "fragBullet": {
+        "width": 3,
+        "height": 8,
+        "damage": 3,
+        "lifetime": 20,
+        "frontColor": "f6f3e2",
+        "backColor": "eee7d2",
+        "despawnEffect": "none"
+      }
+    }
+  },
+
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "hemera-"
+  }
+}
