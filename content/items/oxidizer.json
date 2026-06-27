@@ -1,0 +1,11 @@
+{
+"name": "Oxidizer",
+  "description": "A mixture of compounds that can accept electrons. Used in various redox reactions.",
+  "color": "dff1a2",
+  "hardness": 4,
+  "flammability": 0.5,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}
