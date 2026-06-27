@@ -1,14 +1,14 @@
 "type": "Wall",
-"name": "Steel Wall",
+"name": "Depleted Uranium Wall",
 "description": "Protects structures from enemy projectiles.",
 "size": 1,
 "category": "defense",
 "requirements": [
-  "steel/6"
+  "uranium-depleted/6"
 ]
-"health": 460,
+"health": 580,
 "buildTime": 0.5,
 "researchCost": [
-  "steel/80"
+  "uranium-depleted/80"
   ],
-"research": "iron-wall",
+"research": "stainless-steel-plating",

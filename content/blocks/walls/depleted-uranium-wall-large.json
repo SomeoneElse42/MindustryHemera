@@ -1,0 +1,14 @@
+"type": "Wall",
+"name": "Large Depleted Uranium Wall",
+"description": "Protects structures from enemy projectiles.",
+"size": 2,
+"category": "defense",
+"requirements": [
+  "uranium-depleted/24"
+]
+"health": 2320,
+"buildTime": 2,
+"researchCost": [
+  "uranium-depleted/320"
+  ],
+"research": "depleted-uranium-wall",
