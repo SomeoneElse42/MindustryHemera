@@ -2,6 +2,7 @@
   "type": "GenericCrafter",
   "name": "AVLIS Plant",
   "description": "Separates uranium into enriched and depleted uranium.",
+  "details": "Stands for Atomic Vapor Laser Isotope Separation. Uses specifically tuned lasers to propel the more radioactive atoms in a different direction than the more stable ones.",
   "size": 2,
   "health": 480,
   "squareSprite": false,
@@ -32,13 +33,13 @@
       {
         "type": "DrawGlowRegion",
         "suffix": "-glow",
-        "color": "4dff87",
+        "color": "c5ff7a",
         "alpha": 1
       }
     ]
   },
   "craftTime": 60,
-  "ambientSound": "loopSmelter",
+  "ambientSound": "loopElectricHum",
   "ambientSoundVolume": 1,
   "outputItems": ["uranium-depleted/2", "uranium-enriched/1"],
   "itemCapacity": 16,
