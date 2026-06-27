@@ -1,9 +1,9 @@
 {
   "type": "GenericCrafter",
-  "name": "Glass Kiln",
+  "name": "Iron Crucible",
   "description": "Smelts multiple iron ingots at once. Requires perchlorate and oxygen as an additional energy source.",
   "size": 2,
-  "health": 160,
+  "health": 480,
   "squareSprite": false,
   "displayEfficiency": false,
   "category": "crafting",
