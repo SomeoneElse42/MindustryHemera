@@ -32,7 +32,7 @@
       {
         "type": "DrawGlowRegion",
         "suffix": "-glow",
-        "color": "6fffa7",
+        "color": "f6a97e",
         "alpha": 1
       }
     ]
