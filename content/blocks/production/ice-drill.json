@@ -8,7 +8,7 @@
   "size": 2,
   "health": 180,
   "squareSprite": false,
-  "displayEfficiency": false,
+  "displayEfficiency": true,
   "category": "crafting",
   "requirements": [
     "steel/30",
