@@ -4,7 +4,7 @@
   "description": "Shoots clumps of bullets at air enemies.",
   "shootSound": "shootScatter",
   "health": 350,
-  "reload": 10,
+  "reload": 25,
   "range": 220,
   "size": 2,
   "category": "turret",
@@ -21,7 +21,7 @@
 
   "shoot": {
     "type": "ShootSpread",
-    "shots": 6,
+    "shots": 3,
     "shotDelay": 0,
     "shotSpread": 5
   },
