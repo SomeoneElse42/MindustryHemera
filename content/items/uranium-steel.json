@@ -1,0 +1,11 @@
+{
+"name": "Uranium Steel",
+  "description": "Extremely durable and corrosion resistant steel alloy. Used for shields and chemical containment.",
+  "color": "6fffa7",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0.1,
+  "charge": 0,
+  "shownPlanets": ["hemera"]
+}
