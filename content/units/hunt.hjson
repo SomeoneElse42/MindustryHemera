@@ -1,0 +1,52 @@
+type: tank
+name: Hunt
+description: Fires standard bullets at enemy targets.
+hitSize: 12
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 352d2bff
+speed: 1.5
+rotateSpeed: 6
+health: 650
+armor: 0
+itemCapacity: 0
+treadRects: [
+  {
+  x: -18,
+  y: -16,
+  width: 36,
+  height: 32
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: hunt-weapon
+    reload: 30
+    rotate: true
+    mirror: false
+    shootSound: shootStell
+    rotateSpeed: 4
+    bullet: {
+      type: BasicBulletType
+      backColor: fff29d
+      frontColor: ffe95c
+      width: 10
+      height: 10
+      damage: 12
+      lifetime: 40
+      speed: 3
+
+      trailColor: fff29d
+      trailChance: 0
+      trailLength: 8
+      trailWidth: 2
+      trailInterval: 0
+      trailEffect: missileTrail
+      trailRotation: false
+      }
+      
+    }
+]
