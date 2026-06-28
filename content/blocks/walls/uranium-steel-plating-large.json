@@ -1,0 +1,17 @@
+"type": "Wall",
+"name": "Large Uranium Steel Plating",
+"description": "Protects structures from enemy projectiles. Reflects some projectiles on impact.",
+"size": 2,
+"category": "defense",
+"requirements": [
+  "uranium-steel/24"
+]
+"health": 2960,
+"buildTime": 0.5,
+"researchCost": [
+  "uranium-steel/320"
+  ],
+
+"research": "uranium-steel-plating",
+
+"chanceDeflect": 6
