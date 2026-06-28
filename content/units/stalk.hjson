@@ -1,0 +1,51 @@
+type: flying
+
+name: Stalk
+description: Fires standard bullets at enemy targets.
+softShadowScl: 0.8
+speed: 3
+accel: 1.2
+rotateSpeed: 10
+drag: 0.3
+health: 120
+hitSize: 12
+itemCapacity: 10
+faceTarget: true
+outlineColor: 352d2bff
+flying: true
+killable: true
+hittable: true
+targetable: true
+
+weapons:[
+  {
+    x: 3
+    y: 1
+    name: stalk-weapon
+    reload: 30
+    rotate: false
+    mirror: true
+    shootSound: shootAlpha
+    bullet: {
+      type: BasicBulletType
+      backColor: f2b25e
+      frontColor: ffd37f
+      width: 10
+      height: 10
+      damage: 6
+      lifetime: 30
+      speed: 4
+
+      trailColor: f2b25e
+      trailChance: 0
+      trailLength: 8
+      trailWidth: 2
+      trailInterval: 0
+      trailEffect: missileTrail
+      trailRotation: false
+    }
+  }
+]
+
+research: core-glint
+alwaysUnlocked: false
