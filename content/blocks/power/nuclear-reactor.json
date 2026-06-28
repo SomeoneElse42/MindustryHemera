@@ -5,7 +5,7 @@
   "category": "power",
   "ambientSound": "loopThoriumReactor",
   "ambientSoundVolume": 0.1,
-  "powerProduction": 80,
+  "powerProduction": 22,
   "fuelItem": "uranium-enriched",
   "itemDuration": 120,
   "lightColor": "b7e37d",
