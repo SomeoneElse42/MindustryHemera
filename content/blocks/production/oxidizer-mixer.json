@@ -1,0 +1,67 @@
+{
+  "type": "GenericCrafter",
+  "name": "Oxidizer Mixer",
+  "description": "Mixes oxidizer from perchlorate and oxygen.",
+  "size": 2,
+  "health": 360,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "chromium/10",
+    "steel/15",
+    "glass/10"
+  ],
+  "researchCost": [
+    "chromium/50",
+    "steel/75",
+    "glass/50"
+  ],
+  "craftEffect": "smeltsmoke",
+  "research": "steel-foundry",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+        "padding": 2
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 5
+      },
+      {
+        "type": "DrawDefault"
+      }
+
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 1,
+  "outputItem": "oxidizer/2",
+  "itemCapacity": 16,
+  "conductivePower": true,
+  "consumes": {
+    "power": 2.4,
+    "items": {
+      "items": [
+          "perchlorate/2"
+        ]
+        },
+    "liquids": {
+      "liquids": [
+        "oxygen/0.1"
+      ]
+    }
+    },
+
+  "liquidCapacity": 24
+}
+

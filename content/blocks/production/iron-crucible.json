@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Iron Crucible",
-  "description": "Smelts multiple iron ingots at once. Requires perchlorate and oxygen as an additional energy source.",
+  "description": "Smelts multiple iron ingots at once. Requires oxidizer as an additional energy source.",
   "size": 2,
   "health": 480,
   "squareSprite": false,
@@ -43,17 +43,12 @@
     "items": {
       "items": [
           "rust/8",
-          "perchlorate/2"
+          "oxidizer/2"
         ]
-        },
-    "liquids": {
-      "liquids": [
-          "oxygen/0.1"
-      ]
-    }
+        }
 
     },
 
-  "liquidCapacity": 24
+  "liquidCapacity": 0
 }
 
