@@ -1,0 +1,57 @@
+{
+  "type": "GenericCrafter",
+  "name": "Uranium Steel Forge",
+  "description": "Smelts uranium steel from stainless steel and depleted uranium. Requires oxidizer as an additional heat source.",
+  "size": 2,
+  "health": 510,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "stainless-steel/20",
+    "depleted-uranium/10",
+    "silicon/10",
+    "iron/15",
+    "graphite/20"
+  ],
+  "researchCost": [
+    "stainless-steel/100",
+    "depleted-uranium/50",
+    "silicon/50",
+    "iron/75",
+    "graphite/100"
+  ],
+  "craftEffect": "smeltsmoke",
+  "research": "avlis-plant",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "6fffa7",
+        "alpha": 1
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 1,
+  "outputItem": "uranium-steel/3",
+  "conductivePower": true,
+  "consumes": {
+    "power": 4.8,
+    "items": {
+      "items": [
+          "stainless-steel/2",
+          "oxidizer/1",
+          "depleted-uranium/1"
+        ]
+      }
+    },
+  "liquidCapacity": 0
+}
+
