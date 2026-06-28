@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Fracture",
-  "description": "Shoots fracturing bullets at enemies.",
+  "description": "Shoots fracturing bullets at ground enemies.",
   "health": 350,
   "reload": 40,
   "range": 120,
@@ -24,7 +24,7 @@
   },
 
   "squareSprite": false,
-  "targetAir": true,
+  "targetAir": false,
   "targetGround": true,
   "inaccuracy": 10,
   "recoil": 2,
