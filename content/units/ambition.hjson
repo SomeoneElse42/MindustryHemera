@@ -37,8 +37,7 @@ weapons:[
     beamWidth: 0.84
     shootCone: 15
     mirror: false
-    repairSpeed: 3
-    fractionRepairSpeed: 0.1
+    fractionRepairSpeed: 5
     targetUnits: false
     targetBuildings: true
     autoTarget: false
