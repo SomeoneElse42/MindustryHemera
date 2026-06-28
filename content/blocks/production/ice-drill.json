@@ -3,7 +3,7 @@
   "attribute": "water",
   "baseEfficiency": 0,
   "name": "Ice Drill",
-  "boostScale": 0.25,
+  "boostScale": 0.625,
   "description": "Drills into ice to extract water.",
   "size": 2,
   "health": 180,
