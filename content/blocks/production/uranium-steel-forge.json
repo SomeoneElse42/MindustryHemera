@@ -9,14 +9,14 @@
   "category": "crafting",
   "requirements": [
     "stainless-steel/20",
-    "depleted-uranium/10",
+    "uranium-depleted/10",
     "silicon/10",
     "iron/15",
     "graphite/20"
   ],
   "researchCost": [
     "stainless-steel/100",
-    "depleted-uranium/50",
+    "uranium-depleted/50",
     "silicon/50",
     "iron/75",
     "graphite/100"
