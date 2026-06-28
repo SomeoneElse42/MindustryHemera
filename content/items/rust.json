@@ -7,5 +7,6 @@
   "explosiveness": 0,
   "radioactivity": 0,
   "charge": 0,
-  "shownPlanets": ["hemera"]
+  "shownPlanets": ["hemera"],
+  "research": "core-drop"
 }

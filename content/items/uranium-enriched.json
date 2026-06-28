@@ -7,5 +7,6 @@
   "explosiveness": 0.8,
   "radioactivity": 1,
   "charge": 0,
-  "shownPlanets": ["hemera"]
+  "shownPlanets": ["hemera"],
+  "research": "uranium"
 }
