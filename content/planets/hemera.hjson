@@ -84,10 +84,3 @@ orbitOffset: 130
 accessible: true
 allowLaunchToNumbered: false
 defaultEnv: 1
-
-research: {
-	planet: hemera
-	root: true
-	requiresUnlock: false
-	name: "Hemera"
-}
