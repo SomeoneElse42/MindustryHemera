@@ -8,7 +8,7 @@
   ],
   "category": "power",
   "health": 30,
-  "research": "windmill",
+  "research": "small-windmill",
   "researchCost": [
     "iron/75",
     "glass/40"

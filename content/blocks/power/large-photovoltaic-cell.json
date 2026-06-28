@@ -8,7 +8,7 @@
   ],
   "category": "power",
   "health": 30,
-  "research": "small-windmill",
+  "research": "small-photovoltaic-cell",
   "researchCost": [
     "stainless-steel/80",
     "silicon/250"

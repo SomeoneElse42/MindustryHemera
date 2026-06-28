@@ -1,0 +1,62 @@
+{
+  "type": "NuclearReactor",
+  "name": "Nuclear Reactor",
+  "description": "Produces large amounts of power from uranium fission. Explodes if not cooled with water.",
+  "category": "power",
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.1,
+  "powerProduction": 80,
+  "fuelItem": "uranium-enriched",
+  "itemDuration": 120,
+  "lightColor": "b7e37d",
+  "heating": 0.01,
+  "coolantPower": 0.04,
+  "explosionRadius": 250,
+  "explosionDamage": 1000,
+  "consumes": {
+    "items": {
+      "items": [
+          {
+            "item": "uranium-enriched",
+            "amount": 1
+          }
+        ]
+      },
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "water",
+          "amount": "0.1"
+        }
+      ]
+    }
+  },
+  "requirements": [
+    "stainless-steel/30",
+    "silicon/50",
+    "uranium-depleted/10",
+    "steel/50",
+    "iron/20",
+    "glass/20",
+    "graphite/10",
+    "quartz/10"
+  ],
+  "researchCost": [
+    "stainless-steel/150",
+    "silicon/250",
+    "uranium-depleted/50",
+    "steel/250",
+    "iron/100",
+    "glass/100",
+    "graphite/50",
+    "quartz/50"
+  ],
+  "itemCapacity": 20,
+  "liquidCapacity": 48,
+  "health": 560,
+  "hasLiquids": true,
+  "effectChance": 0.1,
+  "generateEffect": "generatespark",
+  "squareSprite": false,
+  "size": 3
+}
