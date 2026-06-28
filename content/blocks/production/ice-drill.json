@@ -1,0 +1,57 @@
+{
+  "type": "AttributeCrafter",
+  "attribute": "water",
+  "baseEfficiency": 0,
+  "name": "Ice Drill",
+  "boostScale": 0.25,
+  "description": "Drills into ice to extract water.",
+  "size": 2,
+  "health": 180,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "steel/30",
+    "glass/10",
+    "quartz/10"
+  ],
+  "researchCost": [
+    "steel/150",
+    "glass/50",
+    "quartz/50"
+  ],
+  "craftEffect": "steam",
+  "research": "glass-kiln",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "padding": 2
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 3
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "craftTime": 60,
+  "ambientSound": "loopGrind",
+  "ambientSoundVolume": 1,
+  "outputLiquid": "water/0.2",
+  "conductivePower": true,
+  "consumes": {
+    "power": 1.6
+    },
+  "liquidCapacity": 24
+}
+
