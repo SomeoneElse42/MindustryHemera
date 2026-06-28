@@ -4,11 +4,11 @@
 "size": 2,
 "category": "defense",
 "requirements": [
-  "iron/24"
+  "rust/24"
 ]
 "health": 480,
 "buildTime": 2,
 "researchCost": [
-  "iron/320"
+  "rust/320"
   ],
 "research": "rust-wall",
