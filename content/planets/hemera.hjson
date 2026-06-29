@@ -79,7 +79,7 @@ rotateTime: 120
 bloom: true
 sectorSize: 2
 iconColor: bf7b00
-orbitRadius: 60
+orbitRadius: 80
 orbitOffset: 130
 accessible: true
 allowLaunchToNumbered: false
