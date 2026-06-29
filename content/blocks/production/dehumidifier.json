@@ -36,13 +36,13 @@
       },
       {
         "type": "DrawBlurSpin",
-        "suffix": "-rotator",
-        "rotateSpeed": 3
+        "suffix": "-rotator-2",
+        "rotateSpeed": -1
       },
       {
         "type": "DrawBlurSpin",
-        "suffix": "-rotator-2",
-        "rotateSpeed": -1
+        "suffix": "-rotator",
+        "rotateSpeed": 3
       },
       {
         "type": "DrawDefault"
