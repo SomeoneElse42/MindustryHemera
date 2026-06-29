@@ -1,27 +1,27 @@
 type: LiquidRouter
-name: Pipeline Router
+name: Pipeline Buffer
 conductivePower: true
 hasPower: true
 outputsPower: true
 consumes: {
 powerBuffered: 5
 }
-size: 1
-health: 120
+size: 2
+health: 630
 placeableLiquid: true
-liquidCapacity: 100
+liquidCapacity: 560
 liquidPressure: 20
 squareSprite: false
 liquidPadding: 2
 
 category: liquid
 requirements: [
-	glass/5
-  iron/3
+	glass/20
+    iron/12
 ]
 
-research: pipeline
+research: pipeline-router
 researchCost: [
-	glass/25
-  iron/15
+	glass/100
+    iron/60
 ]

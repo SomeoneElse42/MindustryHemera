@@ -1,5 +1,5 @@
 type: LiquidRouter
-name: Pipeline Router
+name: Pipeline Silo
 conductivePower: true
 hasPower: true
 outputsPower: true
@@ -9,19 +9,19 @@ powerBuffered: 5
 size: 1
 health: 120
 placeableLiquid: true
-liquidCapacity: 100
+liquidCapacity: 1320
 liquidPressure: 20
 squareSprite: false
 liquidPadding: 2
 
 category: liquid
 requirements: [
-	glass/5
-  iron/3
+	glass/45
+    iron/25
 ]
 
-research: pipeline
+research: pipeline-container
 researchCost: [
-	glass/25
-  iron/15
+	glass/225
+    iron/125
 ]

@@ -1,10 +1,10 @@
 {
   "type": "AttributeCrafter",
   "attribute": "water",
-  "baseEfficiency": 0,
-  "name": "Ice Drill",
+  "baseEfficiency": 1,
+  "name": "Dehumidifier",
   "boostScale": 0.625,
-  "description": "Drills into ice to extract water.",
+  "description": "Absorbs water vapor from the atmosphere using perchlorate.",
   "size": 2,
   "health": 180,
   "squareSprite": false,
@@ -21,7 +21,7 @@
     "quartz/50"
   ],
   "craftEffect": "steam",
-  "research": "glass-kiln",
+  "research": "carbon-capture",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -40,18 +40,32 @@
         "rotateSpeed": 3
       },
       {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator-2",
+        "rotateSpeed": -1
+      },
+      {
         "type": "DrawDefault"
       }
     ]
   },
-  "craftTime": 60,
-  "ambientSound": "loopGrind",
+  "craftTime": 120,
+  "ambientSound": "loopSteam",
   "ambientSoundVolume": 1,
   "outputLiquid": "water/0.2",
   "conductivePower": true,
   "consumes": {
-    "power": 1.6
-    },
+    "power": 1.6,
+    "items": {
+      "items": [
+        {
+          "item": "perchlorate",
+          "amount": 1
+        }
+      ]
+    }
+  },
+
   "liquidCapacity": 24
 }
 
