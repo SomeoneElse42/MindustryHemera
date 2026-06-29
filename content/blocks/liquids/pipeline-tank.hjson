@@ -6,8 +6,8 @@ outputsPower: true
 consumes: {
 powerBuffered: 5
 }
-size: 1
-health: 120
+size: 3
+health: 1530
 placeableLiquid: true
 liquidCapacity: 1320
 liquidPressure: 20
