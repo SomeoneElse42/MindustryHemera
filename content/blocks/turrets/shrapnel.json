@@ -13,6 +13,7 @@
     "iron/15",
     "rust/10"
   ],
+  "research": "fracture",
   "researchCost": [
     "quartz/25",
     "iron/75",

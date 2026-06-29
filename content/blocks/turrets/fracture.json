@@ -11,6 +11,7 @@
     "quartz/10",
     "iron/15"
   ],
+  "research": "core-drop",
   "researchCost": [
     "quartz/50",
     "iron/75"
