@@ -39,10 +39,4 @@
 
 "researchCost": [
   "rust/30"
-  ],
-research: [
-    parent: core-drop
-    planet: hemera
-    requiresUnlock: false
-    name: "Friction Miner"
-    ]
+  ]

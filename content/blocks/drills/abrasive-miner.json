@@ -5,7 +5,7 @@
 "size": 2,
 "squareSprite": false,
 "category": "production",
-"research": "core-drop",
+"research": "friction-miner",
 "conductivePower": true,
 "requirements": [
 "steel/6", "quartz/6"
