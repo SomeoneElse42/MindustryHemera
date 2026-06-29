@@ -9,7 +9,7 @@
   "size": 2,
   "category": "turret",
   "requirements": [
-    "quartz/50",
+    "quartz/5",
     "iron/15",
     "rust/10"
   ],
