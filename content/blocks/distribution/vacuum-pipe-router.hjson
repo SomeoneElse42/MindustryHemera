@@ -16,7 +16,7 @@ requirements: [
 powerBuffered: 5
 }
 
-research: chute
+research: vacuum-pipe
 researchCost: [
 	iron/20
 ]

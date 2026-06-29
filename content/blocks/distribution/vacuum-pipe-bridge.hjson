@@ -20,7 +20,7 @@ requirements: [
 	iron/5
 ]
 
-research: chute
+research: vacuum-pipe
 researchCost: [
 	rust/25
 	iron/25
