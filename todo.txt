@@ -1,0 +1,27 @@
+Tier 1: Rust, Iron, Quartz:
+    Vacuum pipes
+    Basic turrets
+    Small windmill
+Tier 2: Glass, Graphite, Steel:
+    CO2 (cooling)
+    Oxygen
+    "Point" turret (shoots a single, precise projectile at ground targets)
+    Medium windmill
+Tier 3: Chromium, Perchlorate, Stainless Steel, Silicon:
+    T1 and T2 Units
+    Water
+    Artillery turret (probably named "Hurl")
+    Oxidizer
+Tier 4: Uranium (depleted and enriched), Uranium Steel
+    T3 Units
+    Nuclear power
+    Shellshock turret (nuclear artillery similar to titan)
+Tier 5: Osmium:
+    Heavy osmium walls
+    T4 Units
+    Rocket fuel/missile crafting
+    Spot turret (missile launcher)
+Tier 6: Heavy steel:
+    T5 Units
+    Nuclear launch silo
+    Heavy steel walls
