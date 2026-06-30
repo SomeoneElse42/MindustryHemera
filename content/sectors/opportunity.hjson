@@ -2,7 +2,7 @@ name: Opportunity
 description: "A perfect place to start once again, near untouched by the enemy.\nFeatures an abundance of rust and quartz.\nThe enemy will take some time to notice your presence. In the meantime, start refining iron. Establish a starting base and move on."
 captureWave: 15
 planet: hemera
-sector: 1
+sector: 0
 research: core-drop
 difficulty: 1
 alwaysUnlocked: true
