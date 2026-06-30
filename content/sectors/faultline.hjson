@@ -1,0 +1,8 @@
+name: Faultline
+description: "A long valley formed by a tectonic event.\nDue to being harder to reach with ground units, the enemy will also send air units after the first wave. Prepare in advance and research the Shrapnel anti-air turret."
+captureWave: 15
+planet: hemera
+sector: 0
+research: opportunity
+difficulty: 1
+alwaysUnlocked: true
