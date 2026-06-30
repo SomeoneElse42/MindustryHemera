@@ -21,7 +21,15 @@
     "quartz/50"
   ],
   "craftEffect": "steam",
-  "research": "carbon-capture",
+  "research": {
+    "parent": "carbon-capture",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "faultline"
+      }
+    ]
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [

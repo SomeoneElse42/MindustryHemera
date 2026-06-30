@@ -23,7 +23,7 @@
     "objectives": [
       {
         "type": "SectorComplete",
-        "preset": "opportunity"
+        "preset": "faultline"
       }
     ]
   },

@@ -22,7 +22,15 @@
     "graphite/100"
   ],
   "craftEffect": "smeltsmoke",
-  "research": "avlis-plant",
+  "research": {
+    "parent": "avlis-plant",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "faultline"
+      }
+    ]
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [

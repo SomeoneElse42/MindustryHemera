@@ -18,7 +18,15 @@
     "glass/50"
   ],
   "craftEffect": "smeltsmoke",
-  "research": "steel-foundry",
+  "research": {
+    "parent": "steel-foundry",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "faultline"
+      }
+    ]
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [

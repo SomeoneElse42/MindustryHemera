@@ -23,7 +23,15 @@
     "silicon/50"
   ],
   "craftEffect": "smeltsmoke",
-  "research": "stainless-steel-foundry",
+  "research": {
+    "parent": "stainless-steel-foundry",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "faultline"
+      }
+    ]
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
