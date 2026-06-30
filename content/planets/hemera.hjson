@@ -63,7 +63,7 @@ cloudMesh: [
     thresh: 0.5
   }
 ]
-defaultCore: core-shard
+defaultCore: core-drop
 generator: BlankPlanetGenerator
 clearSectorOnLose: true
 orbitTime: 500
