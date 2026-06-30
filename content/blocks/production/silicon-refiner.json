@@ -18,7 +18,15 @@
     "graphite/50"
   ],
   "craftEffect": "steam",
-  "research": "steel-foundry",
+  "research": {
+    "parent": "steel-foundry",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "opportunity"
+      }
+    ]
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [

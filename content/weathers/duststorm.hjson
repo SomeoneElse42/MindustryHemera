@@ -1,0 +1,15 @@
+type: ParticleWeather
+name: Dust Storm
+color: a7674f
+noiseColor: a7674f
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 140
+sizeMin: 30
+minAlpha: 0.3
+maxAlpha: 0.3
+density: 2000
+baseSpeed: 0.5
+opacityMultiplier: 0.5
+force: 0

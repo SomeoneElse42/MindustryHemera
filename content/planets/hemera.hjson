@@ -75,7 +75,7 @@ visible: true
 radius: 1.2
 atmosphereColor: ba5d3060
 updateLighting: true
-rotateTime: 120
+rotateTime: 300
 bloom: true
 sectorSize: 2
 iconColor: bf7b00

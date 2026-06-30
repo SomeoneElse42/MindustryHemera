@@ -18,7 +18,15 @@
     "graphite/50"
   ],
   "craftEffect": "smeltsmoke",
-  "research": "iron-smelter",
+  "research": {
+    "parent": "iron-smelter",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "opportunity"
+      }
+    ]
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
