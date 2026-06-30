@@ -7,7 +7,7 @@ speed: 3
 accel: 1.2
 rotateSpeed: 10
 drag: 0.3
-health: 120
+health: 420
 hitSize: 12
 itemCapacity: 10
 faceTarget: true
