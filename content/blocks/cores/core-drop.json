@@ -16,7 +16,7 @@ squareSprite: false
 requirements: [
     "iron/1000"
     "rust/500"
-    "silicon/1000"
+    "quartz/500"
 ]
 
 alwaysUnlocked: true
