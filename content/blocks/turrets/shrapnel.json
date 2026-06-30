@@ -66,6 +66,30 @@
         "despawnEffect": "none"
       }
     },
+    "glass": {
+      "lifetime": 35,
+      "speed": 6,
+      "type": "FlakBulletType",
+      "ammoMultiplier": 5,
+      "shootEffect": "shootSmall",
+      "width": 8,
+      "damage": 6,
+      "height": 14,
+
+      "frontColor": "b0ece2",
+      "backColor": "96ddda",
+
+      "fragBullets": 8,
+      "fragBullet": {
+        "width": 3,
+        "height": 8,
+        "damage": 1,
+        "lifetime": 20,
+        "frontColor": "b0ece2",
+        "backColor": "96ddda",
+        "despawnEffect": "none"
+      }
+    },
     "perchlorate": {
       "lifetime": 35,
       "speed": 6,
@@ -73,7 +97,7 @@
       "ammoMultiplier": 3,
       "shootEffect": "shootSmall",
       "width": 8,
-      "damage": 8,
+      "damage": 12,
       "height": 14,
       "status": "corroded",
 
