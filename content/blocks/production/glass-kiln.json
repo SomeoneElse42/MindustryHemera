@@ -20,8 +20,8 @@
     "parent": "iron-smelter",
     "objectives": [
       {
-        "type": "SectorComplete",
-        "preset": "opportunity"
+        "type": "OnSector",
+        "preset": "faultline"
       }
     ]
   },

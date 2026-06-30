@@ -16,7 +16,15 @@
     "glass/50"
   ],
   "craftEffect": "steam",
-  "research": "glass-kiln",
+  "research": {
+    "parent": "glass-kiln",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "faultline"
+      }
+    ]
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
