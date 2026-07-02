@@ -1,8 +1,10 @@
 Tier 1: Rust, Iron, Quartz:
+    T1 enemies
     Vacuum pipes
     Basic turrets
     Small windmill
 Tier 2: Glass, Graphite, Steel:
+    T2 enemies (T3 bosses)
     CO2 (cooling)
     Oxygen
     "Point" turret (shoots a single, precise projectile at ground targets)
@@ -10,14 +12,16 @@ Tier 2: Glass, Graphite, Steel:
 Tier 3: Chromium, Perchlorate, Stainless Steel, Silicon:
     T1 and T2 Units
     Water
-    Artillery turret (probably named "Hurl")
+    Hurl turret (artillery)
     Oxidizer
 Tier 4: Uranium (depleted and enriched), Uranium Steel
-    T3 Units
+    T3 enemies
+    T3 Units (T4 and T5 bosses)
     Nuclear power
     Shellshock turret (nuclear artillery similar to titan)
 Tier 5: Osmium:
     Heavy osmium walls
+    T4 enemies
     T4 Units
     Rocket fuel/missile crafting
     Spot turret (missile launcher)
