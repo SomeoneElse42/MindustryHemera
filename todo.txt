@@ -7,12 +7,12 @@ Tier 2: Glass, Graphite, Steel:
     T2 enemies (T3 bosses)
     CO2 (cooling) - done
     Oxygen - done
-    Point turret (shoots a single, precise projectile at ground targets)
+    Hurl turret (artillery)
     Medium windmill - done
 Tier 3: Chromium, Perchlorate, Stainless Steel, Silicon:
     T1 and T2 Units
     Water (cooling and nuclear power) - done
-    Hurl turret (artillery)
+    Point turret (shoots a single, precise projectile at ground targets)
     Oxidizer - done
 Tier 4: Uranium (depleted and enriched), Uranium Steel
     T3 enemies
