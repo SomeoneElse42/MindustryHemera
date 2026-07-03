@@ -36,7 +36,7 @@
   "maxAmmo": 60,
   "ammoTypes": {
     "graphite": {
-      "speed": 5,
+      "speed": 2,
       "splashDamageRadius": 16,
       "frontColor": "b8cfe8",
       "backColor": "95abd9",
@@ -45,10 +45,32 @@
       "type": "ArtilleryBulletType",
       "width": 12,
       "splashDamage": 70,
-      "lifetime": 30,
+      "lifetime": 80,
       "height": 16,
 
       "trailColor": "b8cfe8",
+      "trailChance": 0,
+      "trailLength": 8,
+      "trailWidth": 2,
+      "trailInterval": 0,
+      "trailEffect": "missileTrail",
+      "trailRotation": false
+    },
+    "perchlorate": {
+      "speed": 2,
+      "splashDamageRadius": 16,
+      "frontColor": "ccc675",
+      "backColor": "9dab52",
+      "ammoMultiplier": 1,
+      "hitSize": 8,
+      "type": "ArtilleryBulletType",
+      "width": 12,
+      "splashDamage": 180,
+      "lifetime": 80,
+      "height": 16,
+      "status": "corroded",
+
+      "trailColor": "ccc675",
       "trailChance": 0,
       "trailLength": 8,
       "trailWidth": 2,
