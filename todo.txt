@@ -7,7 +7,8 @@ Tier 2: Glass, Graphite, Steel:
     T2 enemies (T3 bosses)
     CO2 (cooling) - done
     Oxygen - done
-    Hurl turret (artillery)
+    Hurl turret (artillery) - done
+    Seethe turret (flamethrower) - done
     Medium windmill - done
 Tier 3: Chromium, Perchlorate, Stainless Steel, Silicon:
     T1 and T2 Units
