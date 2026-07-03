@@ -23,7 +23,7 @@
   "squareSprite": false,
   "targetAir": false,
   "targetGround": true,
-  "inaccuracy": 5,
+  "inaccuracy": 2,
   "recoil": 2,
   "consumes": {
     "coolant": {
