@@ -1,23 +1,24 @@
 Tier 1: Rust, Iron, Quartz:
-    T1 enemies
-    Vacuum pipes
-    Basic turrets
-    Small windmill
+    T1 enemies - done
+    Vacuum pipes - done
+    Basic turrets - done
+    Small windmill - done
 Tier 2: Glass, Graphite, Steel:
     T2 enemies (T3 bosses)
-    CO2 (cooling)
-    Oxygen
+    CO2 (cooling) - done
+    Oxygen - done
     Point turret (shoots a single, precise projectile at ground targets)
-    Medium windmill
+    Medium windmill - done
 Tier 3: Chromium, Perchlorate, Stainless Steel, Silicon:
     T1 and T2 Units
-    Water (cooling and nuclear power)
+    Water (cooling and nuclear power) - done
     Hurl turret (artillery)
-    Oxidizer
+    Oxidizer - done
 Tier 4: Uranium (depleted and enriched), Uranium Steel
     T3 enemies
     T3 Units (T4 and T5 bosses)
-    Nuclear power
+    Nuclear power - done
+    Large windmill
     Shellshock turret (nuclear artillery similar to titan)
 Tier 5: Osmium:
     Heavy osmium walls
