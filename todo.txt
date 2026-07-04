@@ -1,3 +1,6 @@
+General
+    RESEARCH (IMPORTANT)
+    Maps for all important milestones
 Tier 1: Rust, Iron, Quartz:
     T1 enemies - done
     Vacuum pipes - done
