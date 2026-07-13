@@ -1,9 +1,9 @@
 {
 name: "hemera"
 displayName: "Hemera"
-author: SomeoneElse
+author: "SomeoneElse"
 description: "Adds a new rusty red planet (inspired by Mars) with semi-realistic tech trees."
-version: "1.0"
+version: "0.2"
 minGameVersion: "146"
 dependencies: [ ],
 subtitle: "Next on TODO: T2 and T3 enemies, fix research, add maps for all so far implemented content."
