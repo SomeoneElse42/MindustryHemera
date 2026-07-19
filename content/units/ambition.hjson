@@ -42,8 +42,8 @@ weapons:[
     targetBuildings: true
     autoTarget: false
     controllable: true
-    laserColor: 4accff
-    healColor: 4accff
+    laserColor: 96ddda
+    healColor: 96ddda
 
     bullet: {
       type: BulletType
