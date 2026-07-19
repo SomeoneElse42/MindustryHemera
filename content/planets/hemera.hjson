@@ -66,7 +66,7 @@ cloudMesh: [
 defaultCore: core-drop
 generator: BlankPlanetGenerator
 clearSectorOnLose: true
-orbitTime: 500
+orbitTime: 550
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowWaveSimulation: true
@@ -78,7 +78,7 @@ updateLighting: true
 rotateTime: 300
 bloom: true
 sectorSize: 2
-iconColor: bf7b00
+iconColor: b5765b
 orbitRadius: 80
 orbitOffset: 130
 accessible: true
