@@ -33,21 +33,17 @@
   },
   "research": "large-photovoltaic-cell",
   "requirements": [
-    "stainless-steel/30",
+    "stainless-steel/50",
     "silicon/50",
     "uranium-depleted/10",
-    "steel/50",
-    "iron/20",
     "glass/20",
     "graphite/10",
     "quartz/10"
   ],
   "researchCost": [
-    "stainless-steel/150",
+    "stainless-steel/250",
     "silicon/250",
     "uranium-depleted/50",
-    "steel/250",
-    "iron/100",
     "glass/100",
     "graphite/50",
     "quartz/50"

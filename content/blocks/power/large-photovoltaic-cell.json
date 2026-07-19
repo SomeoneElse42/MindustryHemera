@@ -7,7 +7,7 @@
     "silicon/50"
   ],
   "category": "power",
-  "health": 30,
+  "health": 260,
   "research": "small-photovoltaic-cell",
   "researchCost": [
     "stainless-steel/80",

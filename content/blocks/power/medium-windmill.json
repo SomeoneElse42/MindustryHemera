@@ -3,14 +3,14 @@
   "type": "ConsumeGenerator",
   "size": 2,
   "requirements": [
-    "iron/15",
+    "steel/15",
     "glass/8"
   ],
   "category": "power",
-  "health": 30,
+  "health": 150,
   "research": "small-windmill",
   "researchCost": [
-    "iron/75",
+    "steel/75",
     "glass/40"
   ],
   "consumes": [

@@ -34,3 +34,8 @@ Tier 6: Heavy steel:
     T5 Units
     Nuclear launch silo
     Heavy steel walls
+
+Sector progression:
+    Opportunity: Start (Rust, Iron, Quartz), Ground enemies, small windmill, friction miner, iron smelter, vacuum pipe, fracture turret.
+    Faultline: Airborne enemies, glass, shrapnel turret, carbon capture, co2.
+    Rusty Wasteland: Carbon electrolyzer, oxygen, graphite, steel foundry, steel, steel walls, medium windmill.

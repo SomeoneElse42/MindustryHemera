@@ -1,6 +1,6 @@
 {
   "type": "PowerNode",
-  "health": "20",
+  "health": 20,
   "laserRange": 5,
   "maxNodes": 3,
   "name": "Power Pylon",
