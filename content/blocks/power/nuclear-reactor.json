@@ -11,7 +11,7 @@
   "lightColor": "b7e37d",
   "heating": 0.01,
   "coolantPower": 0.04,
-  "explosionRadius": 250,
+  "explosionRadius": 120,
   "explosionDamage": 1000,
   "consumes": {
     "items": {
