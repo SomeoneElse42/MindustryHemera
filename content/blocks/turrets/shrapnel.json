@@ -52,7 +52,7 @@
       "damage": 4,
       "height": 14,
 
-      "splashDamageRadius": 4,
+      "splashDamageRadius": 24,
       "splashDamage": 3,
 
       "frontColor": "e2e0ce",
@@ -79,7 +79,7 @@
       "damage": 6,
       "height": 14,
 
-      "splashDamageRadius": 6,
+      "splashDamageRadius": 32,
       "splashDamage": 4,
 
       "frontColor": "b0ece2",
@@ -107,7 +107,7 @@
       "height": 14,
       "status": "corroded",
 
-      "splashDamageRadius": 4,
+      "splashDamageRadius": 24,
       "splashDamage": 6,
 
       "frontColor": "ccc675",
