@@ -14,14 +14,7 @@
 "drillTime": 200,
 "itemCapacity": 10,
 "fogRadius": 2,
-"consumes": {
-    "liquid": {
-      "liquid": "water",
-      "amount": 0.02,
-      "optional": true,
-      "booster": true
-    }
-},
+
 
 "consumes": {
   "power": 0.1,
