@@ -3,3 +3,5 @@ This mod's aim is to add a planet to Mindustry, that is scientifically similar t
 Still in development.
 
 Enjoy!
+
+Thanks to Oscillatorium for helping with the Russian translation!
