@@ -35,7 +35,7 @@ weapons: [
       frontColor: ffe95c
       width: 10
       height: 10
-      damage: 12
+      damage: 68
       lifetime: 80
       speed: 4
       homingPower: 0.1
