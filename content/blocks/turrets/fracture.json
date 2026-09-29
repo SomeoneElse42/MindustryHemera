@@ -46,7 +46,7 @@
       "ammoMultiplier": 3,
       "shootEffect": "shootSmall",
       "width": 8,
-      "damage": 8,
+      "damage": 4,
       "height": 14,
 
       "frontColor": "ffe664",
@@ -70,7 +70,7 @@
       "ammoMultiplier": 3,
       "shootEffect": "shootSmall",
       "width": 8,
-      "damage": 12,
+      "damage": 8,
       "height": 14,
 
       "frontColor": "f6f3e2",

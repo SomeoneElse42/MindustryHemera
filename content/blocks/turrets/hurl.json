@@ -65,7 +65,7 @@
       "hitSize": 8,
       "type": "ArtilleryBulletType",
       "width": 12,
-      "splashDamage": 180,
+      "splashDamage": 240,
       "lifetime": 80,
       "height": 16,
       "status": "corroded",
