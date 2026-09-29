@@ -1,0 +1,8 @@
+name: Faultline
+description: "A wide area with a lot of rusty sand exposed.\n\nA suitable area to start producing steel. Research the necessary technologies to do so and defend against the tougher enemy units you will encounter here."
+captureWave: 15
+planet: hemera
+sector: 16
+research: faultline
+difficulty: 1
+alwaysUnlocked: false

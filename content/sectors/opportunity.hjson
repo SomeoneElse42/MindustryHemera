@@ -4,5 +4,5 @@ captureWave: 15
 planet: hemera
 sector: 0
 research: core-drop
-difficulty: 1
+difficulty: 0
 alwaysUnlocked: true

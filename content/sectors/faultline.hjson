@@ -4,5 +4,5 @@ captureWave: 15
 planet: hemera
 sector: 32
 research: opportunity
-difficulty: 1
-alwaysUnlocked: true
+difficulty: 0
+alwaysUnlocked: false
