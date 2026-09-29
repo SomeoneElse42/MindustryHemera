@@ -1,14 +1,14 @@
 type: tank
-name: Hunt
-description: Fires standard bullets at enemy targets.
-hitSize: 8
+name: Ambush
+description: Fires small missiles at enemy targets.
+hitSize: 12
 treadPullOffset: 3
 omniMovement: false
 faceTarget: false
 outlineColor: 352d2bff
 speed: 1.5
 rotateSpeed: 6
-health: 650
+health: 1820
 armor: 0
 itemCapacity: 0
 treadRects: [
@@ -23,25 +23,27 @@ weapons: [
   {
     x: 0
     y: 0
-    name: hunt-weapon
-    reload: 30
+    name: ambush-weapon
+    reload: 70
     rotate: true
     mirror: false
-    shootSound: shootStell
-    rotateSpeed: 4
+    shootSound: shootMissile
+    rotateSpeed: 3
     bullet: {
-      type: BasicBulletType
+      type: MissileBulletType
       backColor: fff29d
       frontColor: ffe95c
       width: 10
       height: 10
       damage: 12
-      lifetime: 40
-      speed: 3
+      lifetime: 80
+      speed: 4
+      homingPower: 0.1
+      homingRange: 80
 
       trailColor: fff29d
       trailChance: 0
-      trailLength: 8
+      trailLength: 10
       trailWidth: 2
       trailInterval: 0
       trailEffect: missileTrail
