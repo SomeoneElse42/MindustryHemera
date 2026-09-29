@@ -1,5 +1,5 @@
 {
-  "name": "Small Photovoltaic Cell",
+  "name": "Large Photovoltaic Cell",
   "type": "SolarGenerator",
   "size": 3,
   "requirements": [
