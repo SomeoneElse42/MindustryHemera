@@ -12,12 +12,12 @@ health: 1820
 armor: 0
 itemCapacity: 0
 treadRects: [
-  {
-  x: -18,
-  y: -16,
-  width: 36,
-  height: 32
-  }
+{
+x: -34,
+y: -36,
+width: 68,
+height: 64
+}
 ]
 weapons: [
   {
