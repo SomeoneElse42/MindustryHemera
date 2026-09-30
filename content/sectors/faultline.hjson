@@ -3,6 +3,14 @@ description: "A long valley formed by a tectonic event.\nDue to being harder to 
 captureWave: 15
 planet: hemera
 sector: 32
-research: opportunity
+research: {
+  parent: "opportunity"
+  objectives: [
+    {
+      type: SectorComplete
+      preset: "opportunity"
+    }
+  ]
+}
 difficulty: 0
 alwaysUnlocked: false
