@@ -13,7 +13,7 @@
   "chromium/6"
 ],
 "health": 30,
-"drillTime": 50,
+"drillTime": 40,
 "itemCapacity": 10,
 "fogRadius": 2,
 "liquidBoostIntensity": 1,
