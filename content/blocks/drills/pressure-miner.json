@@ -1,0 +1,49 @@
+
+"type": "Drill",
+"name": "Pressure Miner",
+"description": "Mines basic ground resources using the pressure of carbon dioxide. As strong as the abrasive miner but significantly faster.",
+"size": 2,
+"squareSprite": false,
+"category": "production",
+"research": "abrasive-miner",
+"conductivePower": true,
+"requirements": [
+  "stainless-steel/12",
+  "quartz/6",
+  "chromium/6"
+],
+"health": 30,
+"drillTime": 120,
+"itemCapacity": 10,
+"fogRadius": 2,
+
+
+"consumes": {
+  "power": 0.5,
+  "liquids": {
+    "liquids": [
+      {
+        "liquid": "water",
+        "amount": 0.02,
+        "optional": true,
+        "booster": true
+      },
+      {
+        "liquid": "co2",
+        "amount": 0.02,
+        "optional": false,
+        "booster": false
+      }
+    ]
+  }
+},
+
+  "ambientSound": "loopGrind",
+  "ambientSoundVolume": 0.05,
+"tier":5,
+
+"researchCost": [
+  "stainless-steel/60",
+  "quartz/30",
+  "chromium/30"
+]
