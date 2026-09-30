@@ -1,7 +1,7 @@
 
 "type": "Drill",
 "name": "Pressure Miner",
-"description": "Mines basic ground resources using the pressure of carbon dioxide. As strong as the abrasive miner but significantly faster.",
+"description": "Mines ground resources using the pressure of carbon dioxide. As powerful as the abrasive miner but significantly faster.",
 "size": 2,
 "squareSprite": false,
 "category": "production",
