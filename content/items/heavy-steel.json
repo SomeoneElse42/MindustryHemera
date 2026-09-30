@@ -1,0 +1,12 @@
+{
+"name": "Heavy Steel",
+  "description": "Extremely durable and corrosion resistant alloy of steel with osmium. Used for extremely durable structures.",
+  "color": "715986",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0.05,
+  "charge": 0,
+  "shownPlanets": ["hemera"],
+  "research": "uranium-steel"
+}
