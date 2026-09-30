@@ -23,14 +23,8 @@
   "liquids": {
     "liquids": [
       {
-        "liquid": "water",
-        "amount": 0.02,
-        "optional": true,
-        "booster": true
-      },
-      {
         "liquid": "co2",
-        "amount": 0.02,
+        "amount": 0.05,
         "optional": false,
         "booster": false
       }
