@@ -16,7 +16,7 @@
 "drillTime": 80,
 "itemCapacity": 10,
 "fogRadius": 2,
-"liquidBoostIntensity"
+"liquidBoostIntensity": 0,
 
 "consumes": {
   "power": 0.5,
