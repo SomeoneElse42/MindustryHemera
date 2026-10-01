@@ -13,7 +13,7 @@
   "uranium-depleted/6"
 ],
 "health": 30,
-"drillTime": 140,
+"drillTime": 100,
 "itemCapacity": 10,
 "fogRadius": 2,
 "liquidBoostIntensity": 1,
