@@ -1,6 +1,6 @@
 
 "type": "Drill",
-"name": "Pressure Miner",
+"name": "Corrosion Miner",
 "description": "Corrodes the ground using oxygen to extract resources.",
 "size": 2,
 "squareSprite": false,
