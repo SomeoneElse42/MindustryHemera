@@ -1,0 +1,43 @@
+
+"type": "Drill",
+"name": "Pressure Miner",
+"description": "Corrodes the ground using oxygen to extract resources.",
+"size": 2,
+"squareSprite": false,
+"category": "production",
+"research": "abrasive-miner",
+"conductivePower": true,
+"requirements": [
+  "uranium-steel/12",
+  "glass/6",
+  "uranium-depleted/6"
+],
+"health": 30,
+"drillTime": 140,
+"itemCapacity": 10,
+"fogRadius": 2,
+"liquidBoostIntensity": 1,
+
+"consumes": {
+  "power": 2.3,
+  "liquids": {
+    "liquids": [
+      {
+        "liquid": "oxygen",
+        "amount": 0.05,
+        "optional": false,
+        "booster": false
+      }
+    ]
+  }
+},
+
+  "ambientSound": "loopGrind",
+  "ambientSoundVolume": 0.05,
+"tier":7,
+
+"researchCost": [
+  "uranium-steel/60",
+  "glass/30",
+  "uranium-depleted/30"
+]
