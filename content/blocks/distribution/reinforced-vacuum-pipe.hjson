@@ -1,0 +1,24 @@
+type: Duct
+name: Reinforced Vacuum Pipe
+description: Moves items forward. Conducts power and stores a small amount. Does not accept input from the sides.
+conductivePower: true
+health: 30
+speed: 4
+hasPower: true
+outputsPower: true
+bridgeReplacement: vacuum-pipe-bridge
+consumes: {
+	powerBuffered: 50
+}
+researchCost: [
+	iron/10
+	stainless-steel/5
+]
+requirements: [
+	iron/2
+	stainless-steel/1
+]
+armored: true
+category: distribution
+research: vacuum-pipe
+solid: false

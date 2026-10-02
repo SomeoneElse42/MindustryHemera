@@ -1,6 +1,6 @@
 type: Duct
 name: Vacuum Pipe
-description: Moves items forward. Conducts power and stores a small amount..
+description: Moves items forward. Conducts power and stores a small amount.
 conductivePower: true
 health: 30
 speed: 4
