@@ -1,0 +1,26 @@
+type: StorageBlock
+description: "Stores a small amount of items. Expands core capacity."
+health: 560
+size: 2
+name: Buffer
+
+solid: true
+itemCapacity: 280
+
+squareSprite: false
+coreMerge: true
+
+research: {
+	parent: core-drop
+	cost: [
+		steel/400
+		chromium/200
+	]
+}
+
+requirements: [
+	steel/80
+	chromium/40
+]
+
+category: effect
