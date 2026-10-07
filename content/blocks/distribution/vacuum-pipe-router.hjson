@@ -11,7 +11,7 @@ requirements: [
 
 	outputsPower: true
 
-	consumes: {
+
 consumes: {
 powerBuffered: 5
 }
