@@ -1,0 +1,14 @@
+"type": "Wall",
+"name": "Large Osmium Wall",
+"description": "Protects structures from enemy projectiles.",
+"size": 2,
+"category": "defense",
+"requirements": [
+  "steel/24"
+]
+"health": 5840,
+"buildTime": 2,
+"researchCost": [
+  "steel/320"
+  ],
+"research": "osmium-wall",
