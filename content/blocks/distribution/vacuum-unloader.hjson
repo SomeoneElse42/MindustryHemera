@@ -1,6 +1,6 @@
 type: Unloader
-name: Chute Unloader
-description: "Unloads structures it's placed next to. Can unload from cores."
+name: Vacuum Unloader
+description: "Unloads from structures it's placed next to. Can unload from cores."
 size: 1
 
 speed: 3
