@@ -1,0 +1,19 @@
+type: Unloader
+name: Chute Unloader
+description: "Unloads structures it's placed next to. Can unload from cores."
+size: 1
+
+speed: 3
+
+solid: false
+category: distribution
+
+requirements: [
+	quartz/10
+	iron/20
+]
+research: vacuum-pipe-router
+researchCost: [
+	quartz/50
+	iron/100
+]
