@@ -1,7 +1,12 @@
 type: Unloader
 name: Vacuum Unloader
-description: "Unloads from structures it's placed next to. Can unload from cores."
+description: "Unloads from structures it's placed next to. Can unload from cores. Conducts and stores a small amount of power."
 size: 1
+
+consumes: {
+powerBuffered: 5
+}
+conductivePower: true
 
 speed: 3
 

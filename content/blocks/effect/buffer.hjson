@@ -1,5 +1,5 @@
 type: StorageBlock
-description: "Stores a small amount of items. Expands core capacity."
+description: "Stores a small amount of items. Expands core capacity. Conducts and stores power."
 health: 560
 size: 2
 name: Buffer
@@ -17,6 +17,11 @@ research: {
 		chromium/200
 	]
 }
+
+consumes: {
+powerBuffered: 10000
+}
+conductivePower: true
 
 requirements: [
 	steel/80
