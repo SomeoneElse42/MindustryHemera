@@ -4,12 +4,12 @@
 "size": 2,
 "category": "defense",
 "requirements": [
-  "uranium-steel/24"
+  "heavy-steel/24"
 ]
 "health": 13040,
 "buildTime": 0.5,
 "researchCost": [
-  "uranium-steel/320"
+  "heavy-steel/320"
   ],
 
 "research": "heavy-steel-plating",
