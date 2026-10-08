@@ -4,11 +4,11 @@
 "size": 1,
 "category": "defense",
 "requirements": [
-  "steel/6"
+  "osmium/6"
 ]
 "health": 1460,
 "buildTime": 0.5,
 "researchCost": [
-  "steel/80"
+  "osmium/80"
   ],
 "research": "uranium-steel-plating",
