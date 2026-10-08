@@ -4,12 +4,12 @@
 "size": 1,
 "category": "defense",
 "requirements": [
-  "uranium-steel/6"
+  "heavy-steel/6"
 ]
 "health": 3260,
 "buildTime": 0.5,
 "researchCost": [
-  "uranium-steel/80"
+  "heavy-steel/80"
   ],
 
 "research": "osmium-wall",
