@@ -52,7 +52,7 @@
   },
   "craftTime": 60,
   "ambientSound": "loopSmelter",
-  "ambientSoundVolume": 1,
+  "ambientSoundVolume": 0.05,
   "outputItem": "oxidizer/2",
   "itemCapacity": 16,
   "conductivePower": true,

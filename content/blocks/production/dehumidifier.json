@@ -59,7 +59,7 @@
   },
   "craftTime": 120,
   "ambientSound": "loopSteam",
-  "ambientSoundVolume": 1,
+  "ambientSoundVolume": 0.05,
   "outputLiquid": "water/0.2",
   "conductivePower": true,
   "consumes": {

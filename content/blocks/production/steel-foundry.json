@@ -43,7 +43,7 @@
   },
   "craftTime": 60,
   "ambientSound": "loopSmelter",
-  "ambientSoundVolume": 1,
+  "ambientSoundVolume": 0.05,
   "outputItem": "steel/2",
   "conductivePower": true,
   "consumes": {

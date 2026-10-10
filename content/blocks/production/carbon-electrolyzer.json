@@ -49,7 +49,7 @@
   },
   "craftTime": 60,
   "ambientSound": "loopElectricHum",
-  "ambientSoundVolume": 0.5,
+  "ambientSoundVolume": 0.05,
   "outputItem": "graphite/1",
   "outputLiquid": "oxygen/0.1",
   "conductivePower": true,

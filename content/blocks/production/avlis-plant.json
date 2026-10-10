@@ -48,7 +48,7 @@
   },
   "craftTime": 120,
   "ambientSound": "loopElectricHum",
-  "ambientSoundVolume": 1,
+  "ambientSoundVolume": 0.05,
   "outputItems": ["uranium-depleted/2", "uranium-enriched/1"],
   "itemCapacity": 16,
   "conductivePower": true,

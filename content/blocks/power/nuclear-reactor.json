@@ -4,7 +4,7 @@
   "description": "Produces large amounts of power from uranium fission. Explodes if not cooled with water.",
   "category": "power",
   "ambientSound": "loopThoriumReactor",
-  "ambientSoundVolume": 0.1,
+  "ambientSoundVolume": 0.05,
   "powerProduction": 22,
   "fuelItem": "uranium-enriched",
   "itemDuration": 120,

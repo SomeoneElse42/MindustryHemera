@@ -49,7 +49,7 @@
   },
   "craftTime": 60,
   "ambientSound": "loopMachineSpin",
-  "ambientSoundVolume": 1,
+  "ambientSoundVolume": 0.05,
   "outputLiquid": "co2/0.2",
   "conductivePower": true,
   "consumes": {
