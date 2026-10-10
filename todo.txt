@@ -7,11 +7,12 @@ Tier 1: Rust, Iron, Quartz:
     Basic turrets - done
     Small windmill - done
 Tier 2: Glass, Graphite, Steel:
-    T2 enemies (T3 bosses)
+    T2 enemies
+    T3 bosses
     CO2 (cooling) - done
     Oxygen - done
     Hurl turret (artillery) - done
-    Seethe turret (flamethrower) - done
+    Seethe turret (flamethrower)
     Medium windmill - done
 Tier 3: Chromium, Perchlorate, Stainless Steel, Silicon:
     T1 and T2 Units
@@ -25,7 +26,7 @@ Tier 4: Uranium (depleted and enriched), Uranium Steel:
     Large windmill
     Shellshock turret (nuclear artillery similar to titan)
 Tier 5: Osmium:
-    Heavy osmium walls
+    Heavy osmium walls - done
     T4 enemies
     T4 Units
     Rocket fuel/missile crafting
@@ -33,7 +34,7 @@ Tier 5: Osmium:
 Tier 6: Heavy steel:
     T5 Units
     Nuclear launch silo
-    Heavy steel walls
+    Heavy steel walls - done
 
 Sector progression:
     Opportunity: Start (Rust, Iron, Quartz), Ground enemies, small windmill, friction miner, iron smelter, vacuum pipe, fracture turret.
