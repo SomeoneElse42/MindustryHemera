@@ -47,5 +47,5 @@ weapons:[
   }
 ]
 
-research: core-glint
+research: core-drop
 alwaysUnlocked: false
