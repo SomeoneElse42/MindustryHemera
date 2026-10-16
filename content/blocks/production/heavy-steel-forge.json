@@ -1,0 +1,67 @@
+{
+  "type": "GenericCrafter",
+  "name": "Heavy Steel Forge",
+  "description": "Smelts heavy steel from uranium steel, osmium and silicon. Requires oxidizer and a significant amount of extra oxygen as an additional energy source. Produces rust as a byproduct.",
+  "size": 3,
+  "health": 1820,
+  "squareSprite": false,
+  "displayEfficiency": false,
+  "category": "crafting",
+  "requirements": [
+    "uranium-steel/80",
+    "uranium-depleted/20",
+    "silicon/10",
+    "osmium/20",
+    "iron/50",
+    "graphite/60"
+  ],
+  "researchCost": [
+    "uranium-steel/400",
+    "uranium-depleted/100",
+    "silicon/50",
+    "osmium/100",
+    "iron/250",
+    "graphite/300"
+  ],
+  "craftEffect": "smeltsmoke",
+  "research": {
+    "parent": "uranium-steel-forge",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "faultline"
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "efce7b",
+        "alpha": 1
+      }
+    ]
+  },
+  "craftTime": 120,
+  "ambientSound": "loopSmelter",
+  "ambientSoundVolume": 0.05,
+  "outputItem": "uranium-steel/3",
+  "conductivePower": true,
+  "consumes": {
+    "power": 4.8,
+    "items": {
+      "items": [
+          "stainless-steel/2",
+          "oxidizer/1",
+          "uranium-depleted/1"
+        ]
+      }
+    },
+  "liquidCapacity": 0
+}
+
