@@ -53,7 +53,7 @@
   "outputItems": ["heavy-steel/4", "rust/4"],
   "conductivePower": true,
   "consumes": {
-    "power": 4.8,
+    "power": 9.2,
     "items": {
       "items": [
           "uranium-steel/10",
