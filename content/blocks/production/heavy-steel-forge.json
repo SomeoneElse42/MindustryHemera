@@ -50,16 +50,16 @@
   "craftTime": 240,
   "ambientSound": "loopSmelter",
   "ambientSoundVolume": 0.05,
-  "outputItems": ["uranium-steel/4", "rust/4"],
+  "outputItems": ["heavy-steel/4", "rust/4"],
   "conductivePower": true,
   "consumes": {
     "power": 4.8,
     "items": {
       "items": [
-          "uranium-steel/4",
-          "oxidizer/2",
-          "osmium/2",
-          "silicon/2"
+          "uranium-steel/10",
+          "oxidizer/4",
+          "osmium/5",
+          "silicon/3"
         ]
       },
     "liquids": {
