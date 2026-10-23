@@ -1,7 +1,8 @@
 {
   "type": "GenericCrafter",
   "name": "Iron Crucible",
-  "description": "Smelts multiple iron ingots at once. Requires oxidizer as an additional energy source.",
+  "description": "Smelts multiple iron ingots at once. Requires graphite as a reducing agent for iron.",
+  "details": "Графит забирает из ржавчины кислород и превращается в углекислый газ, а окислитель здесь ни к чему - он будет пытаться дать ржавчине ещё больше кислорода",
   "size": 2,
   "health": 480,
   "squareSprite": false,
@@ -51,12 +52,10 @@
     "items": {
       "items": [
           "rust/8",
-          "oxidizer/1"
+          "graphite/1"
         ]
-        }
-
+      }
     },
-
   "liquidCapacity": 0
 }
 
