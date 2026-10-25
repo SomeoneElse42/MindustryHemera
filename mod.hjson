@@ -2,10 +2,27 @@
 name: "hemera"
 displayName: "[orange]Hemera[]"
 author: "SomeoneElse"
-description: "Adds a new rusty red planet (inspired by Mars) with a semi-realistic tech tree \n[accent]Help: Xelirit (Russian translation)[]"
+description: "Adds a new rusty red planet (inspired by Mars) with a semi-realistic tech tree \n[[]accent]Help: Xelirit (Russian translation)[[]]"
 version: "0.22"
 minGameVersion: "146"
 dependencies: [ ],
-subtitle: "[red]Kinda burnt out...[]"
+subtitle: "[[]red]Kinda burnt out...[[]]"
 hidden: false
+contentOrder: [
+rust
+iron
+quartz
+glass
+steel
+perchlorate
+oxidizer
+chromium
+stainless-steel
+uranium
+uranium-depleted
+uranium-enriched
+uranium-steel
+osmium
+heavy-steel
+]
 }
