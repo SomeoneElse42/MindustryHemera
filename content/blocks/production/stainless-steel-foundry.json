@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Stainless Steel Foundry",
-  "description": "Smelts stainless steel from iron, graphite, chromium and perchlorate.",
+  "description": "Smelts stainless steel from iron, graphite and chromium.",
   "size": 2,
   "health": 350,
   "squareSprite": false,
@@ -56,8 +56,7 @@
       "items": [
           "iron/3",
           "graphite/1",
-          "chromium/1",
-          "perchlorate/1"
+          "chromium/1"
         ]
       }
     },
