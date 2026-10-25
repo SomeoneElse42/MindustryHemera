@@ -32,5 +32,10 @@ overflow-vacuum-pipe
 underflow-vacuum-pipe
 vacuum-unloader
 pipeline
+pipeline-junction
+bridge-pipeline
+pipeline-router
+pipeline-container
+pipeline-tank
 ]
 }
