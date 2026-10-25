@@ -44,10 +44,9 @@ weapons:[
     controllable: true
     laserColor: 96ddda
     healColor: 96ddda
-
     bullet: {
       type: BulletType
-      maxRange: 40
+      maxRange: 100
     }
   }
 ]
