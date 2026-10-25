@@ -24,5 +24,13 @@ uranium-enriched
 uranium-steel
 osmium
 heavy-steel
+vacuum-pipe
+reinforced-vacuum-pipe
+vacuum-pipe-router
+vacuum-pipe-bridge
+overflow-vacuum-pipe
+underflow-vacuum-pipe
+vacuum-unloader
+pipeline
 ]
 }
