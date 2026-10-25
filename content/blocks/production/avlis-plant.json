@@ -56,10 +56,9 @@
     "power": 3.2,
     "items": {
       "items": [
-          "uranium/3",
-          "perchlorate/2"
+          "uranium/3"
         ]
-        }
+      }
     },
 
   "liquidCapacity": 24
