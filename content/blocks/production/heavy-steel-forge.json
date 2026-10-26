@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Heavy Steel Forge",
-  "description": "Smelts heavy steel from uranium steel, osmium and silicon. Requires oxidizer and a significant amount of extra oxygen as an additional energy source. Outputs rust as a byproduct.",
+  "description": "Smelts heavy steel from uranium steel, osmium and silicon.",
   "size": 3,
   "health": 1820,
   "squareSprite": false,
@@ -50,24 +50,17 @@
   "craftTime": 240,
   "ambientSound": "loopSmelter",
   "ambientSoundVolume": 0.05,
-  "outputItems": ["heavy-steel/4", "rust/4"],
+  "outputItems": ["heavy-steel/4"],
   "conductivePower": true,
   "consumes": {
     "power": 9.2,
     "items": {
       "items": [
-          "uranium-steel/10",
-          "oxidizer/4",
-          "osmium/5",
-          "silicon/3"
-        ]
-      },
-    "liquids": {
-        "liquids": [
-          "oxygen/0.4"
-        ]
-      }
-    },
-  "liquidCapacity": 80
+        "uranium-steel/10",
+        "osmium/5",
+        "silicon/3"
+      ]
+    }
+  }
 }
 
