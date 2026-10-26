@@ -14,5 +14,5 @@
     "silicon/250"
   ],
   "description": "Constantly produces power in the sun. Peaks higher than the windmill but doesn't work at night.",
-  "powerProduction": "7.4"
+  "powerProduction": 1.25
 }
