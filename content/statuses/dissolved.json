@@ -4,7 +4,7 @@
   "speedMultiplier": 0.5,
   "healthMultiplier": 0.7,
   "intervalDamage": 50,
-  "intervalDamageTime": 300,
+  "intervalDamageTime": 12,
   "effectChance": 0.1,
   "effect": {
     "type": "ParticleEffect",
