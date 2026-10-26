@@ -49,7 +49,7 @@
       "damage": 4,
       "height": 14,
 
-      "status": "hemera-rusting",
+      "status": "hemera-rusted",
       "statusDuration": 300,
 
       "frontColor": "ffe664",
@@ -60,7 +60,7 @@
         "width": 3,
         "height": 8,
         "damage": 3,
-        "status": "hemera-rusting",
+        "status": "hemera-rusted",
         "statusDuration": 60,
         "lifetime": 20,
         "frontColor": "ff9c43",
