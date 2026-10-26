@@ -1,0 +1,21 @@
+{
+  "name": "dissolved",
+  "color": "dff1a2",
+  "speedMultiplier": 0.5,
+  "healthMultiplier": 0.7,
+  "intervalDamage": 50,
+  "intervalDamageTime": 300,
+  "effectChance": 0.1,
+  "effect": {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "lifetime": 60,
+    "length": 12,
+    "baseLength": 4,
+    "sizeFrom": 6,
+    "sizeTo": 6,
+    "colorFrom": "dff1a2aa",
+    "colorTo": "dff1a244",
+    "layer": 110
+  }
+}
