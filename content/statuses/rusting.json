@@ -1,19 +1,19 @@
 {
   "name": "rusting",
-  "color": "8b4513",
+  "color": "E68250",
   "speedMultiplier": 0.75,
   "healthMultiplier": 0.9,
   "effectChance": 0.1,
   "effect": {
     "type": "ParticleEffect",
-    "particles": 3,
+    "particles": 5,
     "lifetime": 60,
     "length": 4,
     "baseLength": 2,
     "sizeFrom": 2,
     "sizeTo": 1,
-    "colorFrom": "8b4513aa",
-    "colorTo": "5c2e0b88",
+    "colorFrom": "E68250AA",
+    "colorTo": "E6825088",
     "layer": 110
   }
 }
