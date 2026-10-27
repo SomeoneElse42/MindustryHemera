@@ -52,6 +52,7 @@
   "ambientSoundVolume": 0.05,
   "outputItems": ["heavy-steel/4"],
   "conductivePower": true,
+  "ItemCapacity": 30,
   "consumes": {
     "power": 9.2,
     "items": {
