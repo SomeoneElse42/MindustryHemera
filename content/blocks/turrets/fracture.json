@@ -32,8 +32,7 @@
   "consumes": {
     "coolant": {
       "amount": 0.1,
-      "allowGas": true,
-      "liquid": "hemera-co2"
+      "allowGas": true
     }
   },
   "coolantMultiplier": 12,
@@ -56,7 +55,7 @@
       "frontColor": "ffe664",
       "backColor": "ff9c43",
 
-      "fragBullets": 4,
+      "fragBullets": 3,
       "fragBullet": {
         "width": 3,
         "height": 8,
@@ -70,8 +69,9 @@
       }
     },
     "quartz": {
-      "lifetime": 30,
+      "lifetime": 40,
       "speed": 4,
+      "rangeChange": 40,
       "type": "BasicBulletType",
       "ammoMultiplier": 3,
       "shootEffect": "shootSmall",
@@ -82,7 +82,7 @@
       "frontColor": "f6f3e2",
       "backColor": "eee7d2",
 
-      "fragBullets": 4,
+      "fragBullets": 5,
       "fragBullet": {
         "width": 3,
         "height": 8,
