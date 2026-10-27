@@ -32,7 +32,8 @@
   "consumes": {
     "coolant": {
       "amount": 0.1,
-      "allowGas": true
+      "allowGas": true,
+      "liquid": "hemera-co2"
     }
   },
   "coolantMultiplier": 12,
