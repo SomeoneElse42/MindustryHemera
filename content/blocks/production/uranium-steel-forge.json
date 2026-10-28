@@ -5,7 +5,6 @@
   "size": 2,
   "health": 510,
   "squareSprite": false,
-  "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
     "stainless-steel/20",
@@ -51,7 +50,7 @@
   "outputItem": "uranium-steel/3",
   "conductivePower": true,
   "consumes": {
-    "power": 4.8,
+    "power": 5.0,
     "items": {
       "items": [
           "stainless-steel/2",
