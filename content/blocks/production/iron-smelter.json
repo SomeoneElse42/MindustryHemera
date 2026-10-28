@@ -1,4 +1,4 @@
-{
+.{
   "type": "GenericCrafter",
   "name": "Iron Smelter",
   "description": "Smelts rust into iron.",
@@ -33,7 +33,7 @@
   "outputItem": "iron/1",
   "conductivePower": true,
   "consumes": {
-    "power": 1.2,
+    "power": 0.33333333333333333333333,
     "items": {
       "items": [
           {
