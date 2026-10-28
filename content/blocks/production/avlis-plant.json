@@ -6,7 +6,6 @@
   "size": 2,
   "health": 480,
   "squareSprite": false,
-  "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
     "iron/15",
@@ -53,7 +52,7 @@
   "itemCapacity": 16,
   "conductivePower": true,
   "consumes": {
-    "power": 3.2,
+    "power": 5.833333333333333333333,
     "items": {
       "items": [
           "uranium/3"
