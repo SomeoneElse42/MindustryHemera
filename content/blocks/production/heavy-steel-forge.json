@@ -5,7 +5,6 @@
   "size": 3,
   "health": 1820,
   "squareSprite": false,
-  "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
     "uranium-steel/80",
@@ -52,7 +51,7 @@
   "ambientSoundVolume": 0.05,
   "outputItems": ["heavy-steel/4"],
   "conductivePower": true,
-  "ItemCapacity": 30,
+  "ItemsCapacity": 30,
   "consumes": {
     "power": 9.2,
     "items": {
