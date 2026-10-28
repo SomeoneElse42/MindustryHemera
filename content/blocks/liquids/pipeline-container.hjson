@@ -4,7 +4,7 @@ conductivePower: true
 hasPower: true
 outputsPower: true
 consumes: {
-powerBuffered: 5
+powerBuffered: 50
 }
 size: 2
 health: 630
