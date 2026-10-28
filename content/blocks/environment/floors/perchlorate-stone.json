@@ -1,3 +1,5 @@
-type: Floor
-name: "Perchlorate Stone"
-variants: 3
+{
+  "type": "Floor",
+  "name": "Perchlorate Stone",
+  "variants": 3
+}
