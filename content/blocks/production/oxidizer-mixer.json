@@ -57,19 +57,18 @@
   "itemCapacity": 16,
   "conductivePower": true,
   "consumes": {
-    "power": 2.4,
+    "power": 0.833333333333333333,
     "items": {
       "items": [
           "perchlorate/2"
         ]
-        },
+      },
     "liquids": {
       "liquids": [
         "oxygen/0.1"
       ]
     }
-    },
-
+  },
   "liquidCapacity": 24
 }
 
