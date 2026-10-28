@@ -15,7 +15,7 @@
 "itemCapacity": 10,
 
 "consumes": {
-"power": 0.3,
+"power": 0.3333333333333333333333333333333,
 "liquid": {
 "liquid": "water",
 "amount": 0.02,
