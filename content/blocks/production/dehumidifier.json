@@ -8,7 +8,6 @@
   "size": 2,
   "health": 180,
   "squareSprite": false,
-  "displayEfficiency": true,
   "category": "crafting",
   "requirements": [
     "steel/30",
@@ -63,7 +62,7 @@
   "outputLiquid": "water/0.2",
   "conductivePower": true,
   "consumes": {
-    "power": 1.6,
+    "power": 0.25,
     "items": {
       "items": [
         {
@@ -73,7 +72,6 @@
       ]
     }
   },
-
   "liquidCapacity": 24
 }
 
