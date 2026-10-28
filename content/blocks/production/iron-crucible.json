@@ -2,11 +2,9 @@
   "type": "GenericCrafter",
   "name": "Iron Crucible",
   "description": "Smelts multiple iron ingots at once. Requires graphite as a reducing agent for iron.",
-  "details": "Графит забирает из ржавчины кислород и превращается в углекислый газ, а окислитель здесь ни к чему - он будет пытаться дать ржавчине ещё больше кислорода",
   "size": 2,
   "health": 480,
   "squareSprite": false,
-  "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
     "chromium/10",
@@ -48,7 +46,7 @@
   "itemCapacity": 16,
   "conductivePower": true,
   "consumes": {
-    "power": 4.6,
+    "power": 2.5,
     "items": {
       "items": [
           "rust/8",
