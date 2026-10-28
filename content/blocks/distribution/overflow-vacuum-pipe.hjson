@@ -10,7 +10,6 @@ requirements: [
 
 conductivePower: true
 outputsPower: true
-bridgeReplacement: vacuum-pipe-bridge
 consumes: {
 powerBuffered: 5
 }
