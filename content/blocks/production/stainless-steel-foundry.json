@@ -50,7 +50,7 @@
   "outputItem": "stainless-steel/4",
   "conductivePower": true,
   "consumes": {
-    "power": 4.16666666666666666667,
+    "power": 4.16666666666667,
     "items": {
       "items": [
           "iron/3",
