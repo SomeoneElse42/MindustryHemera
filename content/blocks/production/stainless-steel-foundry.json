@@ -5,7 +5,6 @@
   "size": 2,
   "health": 350,
   "squareSprite": false,
-  "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
     "steel/10",
@@ -51,7 +50,7 @@
   "outputItem": "stainless-steel/4",
   "conductivePower": true,
   "consumes": {
-    "power": 3.5,
+    "power": 4.16666666666666666667,
     "items": {
       "items": [
           "iron/3",
