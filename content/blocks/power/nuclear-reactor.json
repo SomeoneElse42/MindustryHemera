@@ -11,7 +11,7 @@
   "lightColor": "b7e37d",
   "heating": 0.01,
   "coolantPower": 0.04,
-  "explosionRadius": 120,
+  "explosionRadius": 15,
   "explosionDamage": 1000,
   "consumes": {
     "items": {
@@ -52,8 +52,6 @@
   "liquidCapacity": 48,
   "health": 560,
   "hasLiquids": true,
-  "effectChance": 0.1,
-  "generateEffect": "generatespark",
   "squareSprite": false,
   "size": 3
 }
