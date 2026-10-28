@@ -18,7 +18,7 @@
   ],
   "craftEffect": "steam",
   "research": {
-    "parent": "steel-foundry",
+    "parent": "carbon-electrolyzer",
     "objectives": [
       {
         "type": "SectorComplete",
