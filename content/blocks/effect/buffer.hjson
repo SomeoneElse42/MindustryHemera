@@ -18,9 +18,6 @@ research: {
 	]
 }
 
-consumes: {
-powerBuffered: 10000
-}
 conductivePower: true
 
 requirements: [
