@@ -1,4 +1,5 @@
-type: OreBlock
-variants: 3
-itemDrop: "quartz"
-tier: 3
+{
+  "type": "OreBlock",
+  "variants": 3,
+  "itemDrop": "quartz"
+}
