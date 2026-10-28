@@ -10,8 +10,6 @@
   "researchCost": [
     "rust/50"
   ],
-  "consumes": [
-  ],
   "description": "Constantly produces power in the wind.",
   "powerProduction": "0.125",
   "drawer": {
