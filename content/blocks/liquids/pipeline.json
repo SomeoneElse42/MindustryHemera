@@ -7,9 +7,6 @@
   "botColor": "4b5964",
   "conductivePower": true,
   "hasPower": true,
-  "consumes": {
-    "powerBuffered": 5
-  },
   "requirements": [
       "glass/1",
       "iron/1"
