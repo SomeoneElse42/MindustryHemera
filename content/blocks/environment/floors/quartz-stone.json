@@ -1,3 +1,5 @@
-type: Floor
-name: "Quartz Stone"
-variants: 3
+{
+  "type": "Floor",
+  "name": "Quartz Stone",
+  "variants": 3
+}
