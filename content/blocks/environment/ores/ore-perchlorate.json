@@ -1,5 +1,6 @@
-type: OreBlock
-variants: 2
-itemDrop: "perchlorate"
-tier: 4
-playerUnmineable: true
+{
+  "type": "OreBlock",
+  "variants": 2,
+  "itemDrop": "perchlorate",
+  "playerUnmineable": true
+}
