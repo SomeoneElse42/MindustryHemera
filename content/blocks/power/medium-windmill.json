@@ -13,8 +13,6 @@
     "steel/75",
     "glass/40"
   ],
-  "consumes": [
-  ],
   "description": "Constantly produces power in the wind. Produces slightly more than the small windmill.",
   "powerProduction": "0.625",
   "drawer": {
