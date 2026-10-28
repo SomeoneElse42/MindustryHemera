@@ -5,7 +5,6 @@
   "size": 2,
   "health": 160,
   "squareSprite": false,
-  "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
     "rust/6",
@@ -44,7 +43,7 @@
   "outputItem": "glass/1",
   "conductivePower": true,
   "consumes": {
-    "power": 1.8,
+    "power": 1.25,
     "items": {
       "items": [
           {
@@ -52,7 +51,7 @@
             "amount": 1
           }
         ]
-        }
+      }
     },
   "liquidCapacity": 0
 }
