@@ -5,7 +5,6 @@
   "size": 1,
   "health": 80,
   "squareSprite": false,
-  "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
     "rust/12"
