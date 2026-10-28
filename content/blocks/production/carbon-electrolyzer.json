@@ -5,7 +5,6 @@
   "size": 2,
   "health": 180,
   "squareSprite": false,
-  "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
     "iron/20",
@@ -54,7 +53,7 @@
   "outputLiquid": "oxygen/0.1",
   "conductivePower": true,
   "consumes": {
-    "power": 1.4,
+    "power": 1.6666666666666666667,
     "liquids": {
       "liquids": [
         {
