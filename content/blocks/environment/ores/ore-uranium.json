@@ -1,4 +1,6 @@
-type: OreBlock
-variants: 2
-itemDrop: "uranium"
-playerUnmineable: true
+{
+  "type": "OreBlock",
+  "variants": 2,
+  "itemDrop": "uranium",
+  "playerUnmineable": true
+}
