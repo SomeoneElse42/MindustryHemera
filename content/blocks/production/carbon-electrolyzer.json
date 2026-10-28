@@ -20,7 +20,7 @@
     "objectives": [
       {
         "type": "SectorComplete",
-        "preset": "faultline"
+        "preset": "rusty-expanse"
       }
     ]
   },
