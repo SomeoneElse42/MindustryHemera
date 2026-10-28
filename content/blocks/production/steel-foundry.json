@@ -5,7 +5,6 @@
   "size": 2,
   "health": 210,
   "squareSprite": false,
-  "displayEfficiency": false,
   "category": "crafting",
   "requirements": [
     "rust/5",
@@ -47,7 +46,7 @@
   "outputItem": "steel/2",
   "conductivePower": true,
   "consumes": {
-    "power": 2.2,
+    "power": 2.5,
     "items": {
       "items": [
           "iron/2",
