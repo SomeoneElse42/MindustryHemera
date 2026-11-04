@@ -49,7 +49,7 @@
   "craftTime": 240,
   "ambientSound": "loopSmelter",
   "ambientSoundVolume": 0.05,
-  "outputItems": ["heavy-steel/4"],
+  "outputItems": ["heavy-steel/8"],
   "conductivePower": true,
   "itemCapacity": 50,
   "consumes": {
