@@ -1,0 +1,12 @@
+{
+"name": "Ice",
+  "description": "Frozen water. Used as a solid coolant.",
+  "color": "9af0ec",
+  "hardness": 2,
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  "shownPlanets": ["hemera"],
+  "research": "rust"
+}
