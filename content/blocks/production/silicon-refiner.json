@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Silicon Refiner",
-  "description": "Refines silicon from sand. Requires graphite as a reducing agent. Produces carbon dioxide as a by-product.",
+  "description": "Refines silicon from sand. Requires graphite as a reducing agent. Produces carbon dioxide as a by-product. Requires perchlorate as an additional energy source.",
   "size": 2,
   "health": 210,
   "squareSprite": false,

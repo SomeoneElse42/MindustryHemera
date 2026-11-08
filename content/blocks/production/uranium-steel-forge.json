@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Uranium Steel Forge",
-  "description": "Smelts uranium steel from stainless steel and depleted uranium.",
+  "description": "Smelts uranium steel from stainless steel and depleted uranium. Requires oxidizer to run.",
   "size": 2,
   "health": 510,
   "squareSprite": false,
@@ -54,7 +54,8 @@
     "items": {
       "items": [
           "stainless-steel/2",
-          "uranium-depleted/1"
+          "uranium-depleted/1",
+          "oxidizer/2"
         ]
       }
     },
