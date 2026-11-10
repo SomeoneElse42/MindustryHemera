@@ -6,7 +6,7 @@ description: "Adds a new rusty red planet (inspired by Mars) with a semi-realist
 version: "0.22"
 minGameVersion: "146"
 dependencies: [ ],
-subtitle: "[[]red]Kinda burnt out...[[]]"
+subtitle: "[[]sky]Icy shenanigans[[]]"
 hidden: false
 contentOrder: [
 rust
