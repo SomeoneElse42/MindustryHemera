@@ -1,0 +1,11 @@
+{
+  "name": "Ice",
+  "description": "Frozen water. Used as a coolant and as ammunition.",
+  "details": "A very stable material under the conditions of Hemera",
+  "color": "B2D1FFFF",
+  "hardness": 1,
+  "flammability": -0.5,
+  "explosiveness": 0,
+  "shownPlanets": ["hemera"],
+  "research": "rust"
+}
