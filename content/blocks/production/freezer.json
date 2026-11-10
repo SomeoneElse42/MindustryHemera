@@ -20,15 +20,15 @@
     {"item": "hemera-ice", "amount": 5}
   ],
   "requirements": [
-    {"item": "glass", "amount": 50},
+    {"item": "glass", "amount": 25},
     {"item": "iron", "amount": 50}
   ],
   "category": "crafting",
   "research": {
     "parent": "iron-smelter",
     "requirements": [
-      {"item": "glass", "amount": 500},
-      {"item": "iron", "amount": 500}
+      {"item": "glass", "amount": 125},
+      {"item": "iron", "amount": 250}
     ],
     "objectives": [
       {
