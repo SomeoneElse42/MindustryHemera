@@ -7,7 +7,7 @@
   "hasItems": true,
   "hasLiquids": true,
   "hasPower": true,
-  "liquidCapacity": 25,
+  "liquidCapacity": 50,
   "itemCapacity": 10,
   "craftTime": 60,
   "consumes": {
@@ -20,20 +20,20 @@
     {"liquid": "water", "amount": 0.1666666666666667}
   ],
   "requirements": [
-    {"item": "iron", "amount": 0},
-    {"item": "glass", "amount": 0}
+    {"item": "glass", "amount": 75},
+    {"item": "iron", "amount": 50}
   ],
   "category": "crafting",
   "research": {
     "parent": "freezer",
     "requirements": [
-      {"item": "glass", "amount": 0},
-      {"item": "iron", "amount": 0}
+      {"item": "glass", "amount": 375},
+      {"item": "iron", "amount": 250}
     ],
     "objectives": [
       {
-        "type": "OnSector",
-        "preset": "faultline"
+        "type": "research",
+        "content": "hemera-ice"
       }
     ]
   },
