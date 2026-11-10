@@ -1,7 +1,6 @@
 {
   "type": "GenericCrafter",
   "name": "defroster",
-  "iconOverride": "defroster-icon",
   "description": "Размораживает лёд с помощью нагрева электричесвом.",
   "size": 2,
   "health": 250,
@@ -40,6 +39,7 @@
   },
   "drawer": {
     "type": "DrawMulti",
+    "iconOverride": ["-icon"],
     "drawers": [
       {
         "type": "DrawRegion",
