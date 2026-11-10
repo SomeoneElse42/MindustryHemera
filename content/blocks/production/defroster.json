@@ -1,8 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "defroster",
-  "description": "test",
-  "details": "tapok",
+  "description": "Размораживает лёд с помощью нагрева электричесвом.",
   "size": 2,
   "health": 250,
   "hasItems": true,
@@ -42,6 +41,10 @@
     "type": "DrawMulti",
     "drawers": [
       {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
         "type": "DrawDefault"
       },
       {
@@ -52,9 +55,9 @@
       {
         "type": "DrawPistons",
         "suffix": "-piston",
-        "sinMag": 9,
+        "sinMag": 15,
         "sinScl": 8,
-        "angleOffset": 0,
+        "angleOffset": 90,
         "sides": 2
       }
     ]
