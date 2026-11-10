@@ -12,7 +12,7 @@
   "craftTime": 60,
   "consumes": {
     "items": [
-      {"item": "ice", "amount": 1}
+      {"item": "hemera-ice", "amount": 1}
     ],
     "power": 0.8333333333333333333333
   },
