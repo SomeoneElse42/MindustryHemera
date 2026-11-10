@@ -18,7 +18,7 @@
     "power": 0.8333333333333333333333
   },
   "outputLiquids": [
-    {"liquid": "water", "amount": 0.1666666666666667}
+    {"liquid": "water", "amount": 0.08333333333333333333333333333333333}
   ],
   "requirements": [
     {"item": "glass", "amount": 75},
