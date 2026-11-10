@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "name": "Freezer",
   "description": "Freezes water using the ambient temperature.",
-  "size": 1,
+  "size": 2,
   "health": 150,
   "hasItems": true,
   "hasLiquids": true,
