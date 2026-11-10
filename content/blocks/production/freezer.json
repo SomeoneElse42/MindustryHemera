@@ -23,8 +23,19 @@
     {"item": "iron", "amount": 5}
   ],
   "category": "crafting",
-  "research": "iron-smelter",
-  "researchCostMultiplier": 10,
+  "research": {
+    "parent": "iron-smelter",
+    "requirements": [
+      {"item": "glass", "amount": 10},
+      {"item": "iron", "amount": 5}
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "faultline"
+      }
+    ]
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
