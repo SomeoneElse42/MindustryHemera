@@ -45,9 +45,6 @@
         "suffix": "-bottom"
       },
       {
-        "type": "DrawDefault"
-      },
-      {
         "type": "DrawLiquidTile",
         "drawLiquid": "water",
         "padding": 1
@@ -56,9 +53,12 @@
         "type": "DrawPistons",
         "suffix": "-piston",
         "sinMag": 7,
-        "sinScl": 20,
+        "sinScl": 5,
         "angleOffset": 90,
         "sides": 2
+      },
+      {
+        "type": "DrawDefault"
       }
     ]
   }
