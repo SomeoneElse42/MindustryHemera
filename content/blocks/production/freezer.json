@@ -7,6 +7,7 @@
   "hasItems": true,
   "hasLiquids": true,
   "hasPower": false,
+  "squareSprite": false,
   "liquidCapacity": 25,
   "itemCapacity": 5,
   "craftTime": 120,
@@ -40,16 +41,13 @@
     "type": "DrawMulti",
     "drawers": [
       {
-        "type": "DrawLiquidTile",
-        "drawLiquid": "water",
-        "padLeft": 0.5,
-        "padBottom": 0.5,
-        "padTop": 0.5,
-        "padRight": 0.5
-      },
-      {
         "type": "DrawRegion",
         "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "padding": 2
       },
       {
         "type": "DrawCrucibleFlame",
