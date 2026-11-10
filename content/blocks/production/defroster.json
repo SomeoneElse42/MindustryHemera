@@ -1,0 +1,66 @@
+{
+  "type": "GenericCrafter",
+  "name": "defroster",
+  "description": "Размораживает лёд с помощью нагрева электричесвом.",
+  "size": 2,
+  "health": 250,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "liquidCapacity": 25,
+  "itemCapacity": 10,
+  "craftTime": 60,
+  "consumes": {
+    "items": [
+      {"item": "ice", "amount": 1}
+    ],
+    "power": 0.8333333333333333333333
+  },
+  "outputLiquids": [
+    {"liquid": "water", "amount": 0.1666666666666667}
+  ],
+  "requirements": [
+    {"item": "iron", "amount": 0},
+    {"item": "glass", "amount": 0}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "freezer",
+    "requirements": [
+      {"item": "glass", "amount": 0},
+      {"item": "iron", "amount": 0}
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "faultline"
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "iconOverride": ["-icon"],
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "padding": 1
+      },
+      {
+        "type": "DrawPistons",
+        "suffix": "-piston",
+        "sinMag": 7,
+        "sinScl": 5,
+        "angleOffset": 90,
+        "sides": 2
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}
