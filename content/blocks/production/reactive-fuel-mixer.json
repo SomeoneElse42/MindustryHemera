@@ -1,0 +1,66 @@
+{
+  "type": "GenericCrafter",
+  "name": "Reactive Fuel Mixer",
+  "description": "Mixes reactive fuel from perchlorate and graphite. Requires dry ice to cool and choke potential fires. Outputs carbon dioxide as a byproduct.",
+  "size": 2,
+  "health": 360,
+  "squareSprite": false,
+  "category": "crafting",
+  "requirements": [
+    "stainless-steel/10",
+    "steel/15",
+    "glass/10"
+  ],
+  "researchCost": [
+    "stainless-steel/50",
+    "steel/75",
+    "glass/50"
+  ],
+  "craftEffect": "steam",
+  "research": {
+    "parent": "oxidizer-mixer",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "faultline"
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "co2",
+        "padding": 2
+      },
+      {
+        "type": "DrawDefault"
+      }
+
+    ]
+  },
+  "craftTime": 60,
+  "outputItem": "reactive-fuel/2",
+  "itemCapacity": 10,
+  "conductivePower": true,
+  "consumes": {
+    "power": 1.2,
+    "items": {
+      "items": [
+          "perchlorate/1",
+          "graphite/1"
+        ]
+      },
+    "liquids": {
+      "liquids": [
+        "co2/0.05"
+      ]
+    }
+  },
+  "liquidCapacity": 24
+}
