@@ -4,7 +4,7 @@
   "description": "Shoots fracturing bullets at enemies.",
   "health": 350,
   "reload": 40,
-  "range": 120,
+  "range": 160,
   "size": 2,
   "category": "turret",
   "requirements": [
@@ -42,6 +42,7 @@
     "rust": {
       "lifetime": 30,
       "speed": 4,
+      "rangeChange": -40,
       "type": "BasicBulletType",
       "ammoMultiplier": 3,
       "shootEffect": "shootSmall",
@@ -68,14 +69,42 @@
         "despawnEffect": "none"
       }
     },
-    "quartz": {
+    "ice": {
       "lifetime": 40,
       "speed": 4,
-      "rangeChange": 40,
       "type": "BasicBulletType",
       "ammoMultiplier": 3,
       "shootEffect": "shootSmall",
-      "width": 8,
+      "width": 5,
+      "damage": 6,
+      "height": 14,
+
+      "status": "freezing",
+      "statusDuration": 300,
+
+      "frontColor": "B2D1FFFF",
+      "backColor": "7D93B2FF",
+
+      "fragBullets": 5,
+      "fragBullet": {
+        "width": 3,
+        "height": 8,
+        "damage": 1,
+        "status": "freezing",
+        "statusDuration": 60,
+        "lifetime": 20,
+        "frontColor": "B2D1FFFF",
+        "backColor": "7D93B2FF",
+        "despawnEffect": "none"
+      }
+    },
+    "quartz": {
+      "lifetime": 40,
+      "speed": 4,
+      "type": "BasicBulletType",
+      "ammoMultiplier": 3,
+      "shootEffect": "shootSmall",
+      "width": 5,
       "damage": 8,
       "height": 14,
 
