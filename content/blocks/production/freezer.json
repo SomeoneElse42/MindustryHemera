@@ -27,8 +27,8 @@
   "research": {
     "parent": "iron-smelter",
     "requirements": [
-      {"item": "glass", "amount": 10},
-      {"item": "iron", "amount": 5}
+      {"item": "glass", "amount": 100},
+      {"item": "iron", "amount": 50}
     ],
     "objectives": [
       {
