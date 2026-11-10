@@ -17,7 +17,7 @@
     ]
   },
   "outputItems": [
-    {"item": "ice", "amount": 5}
+    {"item": "hemera-ice", "amount": 5}
   ],
   "requirements": [
     {"item": "glass", "amount": 50},
@@ -33,7 +33,7 @@
     "objectives": [
       {
         "type": "Research",
-        "content": "ice"
+        "content": "hemera-ice"
       }
     ]
   },
@@ -54,8 +54,8 @@
         "flameColor": "B2D1FFFF",
         "flameRadiusScl": 1,
         "circleStroke": 0,
-        "flameRad": 1,
-        "particleRad": 2
+        "flameRad": 0.5,
+        "particleRad": 4
       },
       {
         "type": "DrawDefault"
