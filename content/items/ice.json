@@ -5,7 +5,7 @@
   "color": "9af0ec",
   "hardness": 1,
   "lowPriority": true,
-  "flammability": 0,
+  "flammability": -0.5,
   "explosiveness": 0,
   "shownPlanets": ["hemera"],
   "research": "rust"
