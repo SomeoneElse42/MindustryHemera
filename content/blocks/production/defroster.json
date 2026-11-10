@@ -7,8 +7,9 @@
   "hasItems": true,
   "hasLiquids": true,
   "hasPower": true,
+  "conductivePower": true,
   "liquidCapacity": 50,
-  "itemCapacity": 10,
+  "itemCapacity": 15,
   "craftTime": 60,
   "consumes": {
     "items": [
