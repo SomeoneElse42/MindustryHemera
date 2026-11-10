@@ -46,6 +46,7 @@
   },
   "craftTime": 60,
   "outputItem": "reactive-fuel/2",
+  "outputLiquid": "co2/0.05",
   "itemCapacity": 10,
   "conductivePower": true,
   "consumes": {
@@ -53,14 +54,10 @@
     "items": {
       "items": [
           "perchlorate/1",
-          "graphite/1"
+          "graphite/1",
+          "dry-ice/1"
         ]
-      },
-    "liquids": {
-      "liquids": [
-        "co2/0.05"
-      ]
-    }
+      }
   },
   "liquidCapacity": 24
 }
