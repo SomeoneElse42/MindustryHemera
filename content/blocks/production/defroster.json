@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "defroster",
-  "description": "Размораживает лёд с помощью нагрева электричесвом.",
+  "description": "Defrosts ice using electrical heating.",
   "size": 2,
   "health": 250,
   "hasItems": true,
