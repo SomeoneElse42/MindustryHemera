@@ -14,6 +14,8 @@ iron
 quartz
 glass
 steel
+ice
+dry-ice
 perchlorate
 oxidizer
 chromium
@@ -57,13 +59,15 @@ glass-kiln
 carbon-capture
 carbon-electrolyzer
 silicon-refiner
-dehumidifier
 oxidizer-mixer
 avlis-plant
 steel-foundry
 stainless-steel-foundry
 uranium-steel-forge
 heavy-steel-forge
+freezer
+defroster
+dehumidifier
 fracture
 shrapnel
 hurl
