@@ -1,0 +1,11 @@
+{
+  "name": "Dry ice",
+  "description": "Frozen carbon dioxide. Used as a use.",
+  "details": "Under the conditions of hemera, it melts at temperatures above 120°, which makes it quote dangerous, as it transforms into a vast quantity of carbon dioxide",
+  "color": "B2D1FFFF",
+  "hardness": 3,
+  "flammability": -0.5,
+  "explosiveness": 0.75,
+  "shownPlanets": ["hemera"],
+  "research": "co2"
+}
