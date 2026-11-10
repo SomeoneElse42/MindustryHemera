@@ -1,0 +1,56 @@
+{
+  "type": "GenericCrafter",
+  "name": "Freezer",
+  "description": "Freezes water using the ambient temperature.",
+  "size": 1,
+  "health": 150,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": false,
+  "liquidCapacity": 25,
+  "itemCapacity": 5,
+  "craftTime": 120,
+  "consumes": {
+    "liquids": [
+      {"liquid": "water", "amount": 0.416666666666666667}
+    ]
+  },
+  "outputItems": [
+    {"item": "ice", "amount": 5}
+  ],
+  "requirements": [
+    {"item": "glass", "amount": 10},
+    {"item": "iron", "amount": 5}
+  ],
+  "category": "crafting",
+  "research": "iron-smelter",
+  "researchCostMultiplier": 10,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "padLeft": 0.5,
+        "padBottom": 0.5,
+        "padTop": 0.5,
+        "padRight": 0.5
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawCrucibleFlame",
+        "flameColor": "B2D1FFFF",
+        "flameRadiusScl": 1,
+        "circleStroke": 0,
+        "flameRad": 1,
+        "particleRad": 4
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}
