@@ -7,7 +7,7 @@
   "hasItems": true,
   "hasLiquids": true,
   "hasPower": true,
-  "liquidCapacity": 20,
+  "liquidCapacity": 25,
   "itemCapacity": 10,
   "craftTime": 60,
   "consumes": {
@@ -55,8 +55,8 @@
       {
         "type": "DrawPistons",
         "suffix": "-piston",
-        "sinMag": 15,
-        "sinScl": 8,
+        "sinMag": 7,
+        "sinScl": 20,
         "angleOffset": 90,
         "sides": 2
       }
