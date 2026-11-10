@@ -20,20 +20,20 @@
     {"item": "ice", "amount": 5}
   ],
   "requirements": [
-    {"item": "glass", "amount": 10},
-    {"item": "iron", "amount": 5}
+    {"item": "glass", "amount": 50},
+    {"item": "iron", "amount": 50}
   ],
   "category": "crafting",
   "research": {
     "parent": "iron-smelter",
     "requirements": [
-      {"item": "glass", "amount": 100},
-      {"item": "iron", "amount": 50}
+      {"item": "glass", "amount": 500},
+      {"item": "iron", "amount": 500}
     ],
     "objectives": [
       {
-        "type": "OnSector",
-        "preset": "faultline"
+        "type": "Research",
+        "content": "ice"
       }
     ]
   },
