@@ -3,13 +3,13 @@
   "name": "Freezer",
   "description": "Freezes water using the ambient temperature.",
   "size": 2,
-  "health": 150,
+  "health": 250,
   "hasItems": true,
   "hasLiquids": true,
   "hasPower": false,
   "squareSprite": false,
-  "liquidCapacity": 25,
-  "itemCapacity": 5,
+  "liquidCapacity": 50,
+  "itemCapacity": 15,
   "craftTime": 120,
   "consumes": {
     "liquids": [
@@ -55,7 +55,7 @@
         "flameRadiusScl": 1,
         "circleStroke": 0,
         "flameRad": 1,
-        "particleRad": 4
+        "particleRad": 8
       },
       {
         "type": "DrawDefault"
