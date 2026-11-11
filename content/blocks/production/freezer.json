@@ -10,7 +10,7 @@
   "squareSprite": false,
   "liquidCapacity": 50,
   "itemCapacity": 15,
-  "craftTime": 24,
+  "craftTime": 48,
   "consumes": {
     "liquids": [
       {"liquid": "water", "amount": 0.416666666666666667}
