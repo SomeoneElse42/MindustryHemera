@@ -7,11 +7,11 @@
   "hasItems": true,
   "hasLiquids": true,
   "hasPower": true,
-  "squareSprite": true,
+  "squareSprite": false,
   "conductivePower": true,
   "liquidCapacity": 50,
-  "itemCapacity": 15,
-  "craftTime": 60,
+  "itemCapacity": 10,
+  "craftTime": 30,
   "consumes": {
     "items": [
       {"item": "hemera-ice", "amount": 1}
@@ -19,7 +19,7 @@
     "power": 0.8333333333333333333333
   },
   "outputLiquids": [
-    {"liquid": "water", "amount": 0.08333333333333333333333333333333333}
+    {"liquid": "water", "amount": 0.16666666666666666667}
   ],
   "requirements": [
     {"item": "glass", "amount": 75},
