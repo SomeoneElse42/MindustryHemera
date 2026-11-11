@@ -5,10 +5,10 @@
   "size": 2,
   "health": 42,
   "hasItems": true,
-  "hasLiquids": true,
+  "hasLiquids": false,
   "hasPower": true,
   "itemCapacity": 10,
-  "liquidCapacity": 20,
+  "warmupSpeed": 0.015,
   "craftTime": 60,
   "powerProduction": 5.8333333333333333333333,
   "consumes": {
@@ -17,9 +17,6 @@
     ],
     "power": 0.833333333333333333333333
   },
-  "outputLiquids": [
-    {"liquid": "hemera-co2", "amount": 0.416666666666666666}
-  ],
   "requirements": [
     {"item": "hemera-iron", "amount": 10},
     {"item": "hemera-glass", "amount": 10},
