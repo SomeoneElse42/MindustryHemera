@@ -1,0 +1,8 @@
+{
+  "type": "Floor",
+  "name": "Water ice floor",
+  "variants": 3,
+  "itemDrop": "hemera-ice",
+  "playerUnmineable": true,
+  "dragMultiplier": 1.5
+}
