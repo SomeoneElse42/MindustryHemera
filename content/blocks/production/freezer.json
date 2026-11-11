@@ -10,14 +10,14 @@
   "squareSprite": false,
   "liquidCapacity": 50,
   "itemCapacity": 15,
-  "craftTime": 120,
+  "craftTime": 24,
   "consumes": {
     "liquids": [
       {"liquid": "water", "amount": 0.416666666666666667}
     ]
   },
   "outputItems": [
-    {"item": "hemera-ice", "amount": 5}
+    {"item": "hemera-ice", "amount": 1}
   ],
   "requirements": [
     {"item": "glass", "amount": 25},
