@@ -17,7 +17,8 @@ steel
 ice
 dry-ice
 perchlorate
-oxidizer
+oxidizez
+reactive-fuel
 chromium
 stainless-steel
 uranium
@@ -61,6 +62,7 @@ carbon-electrolyzer
 silicon-refiner
 oxidizer-mixer
 avlis-plant
+reactive-fuel-mixer
 steel-foundry
 stainless-steel-foundry
 uranium-steel-forge
