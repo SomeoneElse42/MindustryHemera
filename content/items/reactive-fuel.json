@@ -1,11 +1,10 @@
 {
-"name": "Reactive Fuel",
+  "name": "Reactive Fuel",
   "description": "A mixture of carbon and oxidizers. Burns extremely hot.",
   "color": "ff648a",
   "hardness": 4,
-  "flammability": 1,
-  "explosiveness": 0,
-  "radioactivity": 0,
+  "flammability": 1.5,
+  "explosiveness": 0.5,
   "charge": 0,
   "shownPlanets": ["hemera"],
   "research": "oxidizer"
