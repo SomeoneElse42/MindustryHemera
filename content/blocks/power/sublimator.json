@@ -55,11 +55,6 @@
       },
       {
         "type": "DrawDefault"
-      },
-      {
-        "type": "DrawBlurSpin",
-        "suffix": "-rotator",
-        "rotateSpeed": 1.5
       }
     ]
   }
