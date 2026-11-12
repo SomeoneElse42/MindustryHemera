@@ -8,7 +8,7 @@
   "hasLiquids": false,
   "hasPower": true,
   "itemCapacity": 5,
-  "warmupSpeed": 0.0116,
+  "warmupSpeed": 0.011512,
   "itemDuration": 60,
   "powerProduction": 5.8333333333333333333333,
   "consumes": {
