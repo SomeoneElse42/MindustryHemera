@@ -54,7 +54,20 @@
         "sides": 4
       },
       {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 4
+      },
+      {
         "type": "DrawDefault"
+      },
+      {
+        "type": "DrawParticles",
+        "reverse": true,
+        "particleLife": 30,
+        "particleSize": 2,
+        "color": "dfd9d2ff",
+        "particles": 8
       }
     ]
   }
