@@ -38,6 +38,16 @@
     ]
   },
   "drawer": {
-    "type": "DrawDefault"
+    "type": "DrawMulti",
+    "iconOverride": ["-icon"],
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
   }
 }
