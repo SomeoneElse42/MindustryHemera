@@ -50,7 +50,7 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "water",
-        "padding": 2
+        "padding": 1.4
       },
       {
         "type": "DrawPistons",
