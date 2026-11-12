@@ -59,7 +59,7 @@
         "uranium-steel/10",
         "osmium/5",
         "silicon/3",
-        "oxidizer/2"
+        "reactive-fuel/2"
       ]
     },
     "liquids": {
