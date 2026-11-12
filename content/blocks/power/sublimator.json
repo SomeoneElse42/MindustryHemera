@@ -11,6 +11,29 @@
   "warmupSpeed": 0.023,
   "itemDuration": 60,
   "powerProduction": 5.8333333333333333333333,
+  "generateEffect": {
+    "type": "RadialEffect",
+    "rotationSpacing": 90,
+    "amount": 4,
+    "lengthOffset": 6,
+    "effect": {
+      "type": "ParticleEffect",
+      "baseRotation": 90,
+      "length": 5,
+      "baseLength": 6,
+      "particles": 4,
+      "useRotation": false,
+      "sizeFrom": 1,
+      "sizeTo": 0.1,
+      "lifetime": 120,
+      "cone": 1,
+      "layer": 80,
+      "colorFrom": "ffffff00",
+      "colorTo": "ffffff88",
+      "interp": "pow2",
+      "sizeInterp": "pow3In"
+    }
+  },
   "consumes": {
     "items": [
       {"item": "hemera-dry-ice", "amount": 1}
