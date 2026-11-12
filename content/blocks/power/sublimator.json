@@ -1,0 +1,61 @@
+{
+  "type": "ImpactReactor",
+  "name": "Sublimator",
+  "description": "Generates energy by sublimating dry ice. Requires an initial energy input to heat the ice.",
+  "size": 2,
+  "health": 350,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "itemCapacity": 5,
+  "warmupSpeed": 0.0076746667,
+  "itemDuration": 60,
+  "powerProduction": 5.8333333333333333333333,
+  "consumes": {
+    "items": [
+      {"item": "hemera-dry-ice", "amount": 1}
+    ],
+    "power": 0.833333333333333333333333
+  },
+  "requirements": [
+    {"item": "iron", "amount": 75},
+    {"item": "glass", "amount": 25},
+    {"item": "quartz", "amount": 50}
+  ],
+  "category": "power",
+  "research": {
+    "parent": "small-windmill",
+    "requirements": [
+      {"item": "iron", "amount": 375},
+      {"item": "glass", "amount": 125},
+      {"item": "quartz", "amount": 250}
+    ],
+    "objectives": [
+      {
+        "type": "Research",
+        "content": "hemera-dry-ice"
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "iconOverride": ["-icon"],
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawPistons",
+        "suffix": "-piston",
+        "sinMag": 4,
+        "sinScl": 4,
+        "angleOffset": 45,
+        "sides": 4
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}
