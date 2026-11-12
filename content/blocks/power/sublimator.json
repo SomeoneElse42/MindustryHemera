@@ -67,7 +67,7 @@
         "particleLife": 30,
         "particleSize": 2,
         "color": "dfd9d2ff",
-        "particles": 8
+        "particles": 16
       }
     ]
   }
