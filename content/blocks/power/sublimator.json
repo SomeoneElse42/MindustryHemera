@@ -41,17 +41,17 @@
     "power": 0.833333333333333333333333
   },
   "requirements": [
-    {"item": "hemera-iron", "amount": 10},
-    {"item": "hemera-glass", "amount": 10},
-    {"item": "hemera-quartz", "amount": 10}
+    {"item": "iron", "amount": 75},
+    {"item": "glass", "amount": 25},
+    {"item": "quartz", "amount": 50}
   ],
   "category": "power",
   "research": {
     "parent": "small-windmill",
     "requirements": [
-      {"item": "hemera-iron", "amount": 10},
-      {"item": "hemera-glass", "amount": 10},
-      {"item": "hemera-quartz", "amount": 10}
+      {"item": "iron", "amount": 375},
+      {"item": "glass", "amount": 125},
+      {"item": "quartz", "amount": 250}
     ],
     "objectives": [
       {
@@ -69,7 +69,20 @@
         "suffix": "-bottom"
       },
       {
+        "type": "DrawPistons",
+        "suffix": "-piston",
+        "sinMag": 7,
+        "sinScl": 5,
+        "angleOffset": 0,
+        "sides": 2
+      },
+      {
         "type": "DrawDefault"
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 1.5
       }
     ]
   }
