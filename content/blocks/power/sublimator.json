@@ -1,7 +1,7 @@
 {
   "type": "ImpactReactor",
   "name": "Sublimator",
-  "description": "Generates energy by sublimating dry ice. Requires an initial energy input to heat the ice, but the rapid gas expansion produces more power than it consumes.",
+  "description": "Generates energy by sublimating dry ice. Requires an initial energy input to heat the ice.",
   "size": 2,
   "health": 350,
   "hasItems": true,
@@ -11,7 +11,7 @@
   "warmupSpeed": 0.023,
   "itemDuration": 60,
   "powerProduction": 5.8333333333333333333333,
-  "generateEffect": {
+  "craftEffect": {
     "type": "RadialEffect",
     "rotationSpacing": 90,
     "amount": 4,
