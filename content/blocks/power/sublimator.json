@@ -8,7 +8,7 @@
   "hasLiquids": false,
   "hasPower": true,
   "itemCapacity": 5,
-  "warmupSpeed": 0.00767466666667,
+  "warmupSpeed": 0.0076746667,
   "itemDuration": 60,
   "powerProduction": 5.8333333333333333333333,
   "consumes": {
@@ -48,8 +48,8 @@
       {
         "type": "DrawPistons",
         "suffix": "-piston",
-        "sinMag": 3.8,
-        "sinScl": 5,
+        "sinMag": 3.85,
+        "sinScl": 6,
         "angleOffset": 45,
         "sides": 4
       },
