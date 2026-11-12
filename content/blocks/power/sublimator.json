@@ -11,7 +11,7 @@
   "warmupSpeed": 0.023,
   "itemDuration": 60,
   "powerProduction": 5.8333333333333333333333,
-  "craftEffect": {
+  "updateEffect": {
     "type": "RadialEffect",
     "rotationSpacing": 90,
     "amount": 4,
