@@ -48,8 +48,8 @@
       {
         "type": "DrawPistons",
         "suffix": "-piston",
-        "sinMag": 3.85,
-        "sinScl": 6,
+        "sinMag": 4,
+        "sinScl": 4,
         "angleOffset": 45,
         "sides": 4
       },
