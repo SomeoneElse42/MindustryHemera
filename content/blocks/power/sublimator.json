@@ -7,11 +7,10 @@
   "hasItems": true,
   "hasLiquids": false,
   "hasPower": true,
-  "itemCapacity": 10,
-  "warmupSpeed": 0.023,
+  "itemCapacity": 5,
+  "warmupSpeed": 0.0115,
   "itemDuration": 60,
   "powerProduction": 5.8333333333333333333333,
-  "generateEffect": "vapor",
   "consumes": {
     "items": [
       {"item": "hemera-dry-ice", "amount": 1}
@@ -45,11 +44,11 @@
       {
         "type": "DrawRegion",
         "suffix": "-bottom"
-      },
+      },q
       {
         "type": "DrawPistons",
         "suffix": "-piston",
-        "sinMag": 1,
+        "sinMag": 5,
         "sinScl": 5,
         "angleOffset": 45,
         "sides": 4
