@@ -11,7 +11,7 @@
   "warmupSpeed": 0.023,
   "itemDuration": 60,
   "powerProduction": 5.8333333333333333333333,
-  "craftEffect": "vapor",
+  "generateEffect": "vapor",
   "consumes": {
     "items": [
       {"item": "hemera-dry-ice", "amount": 1}
@@ -49,9 +49,9 @@
       {
         "type": "DrawPistons",
         "suffix": "-piston",
-        "sinMag": 9,
-        "sinScl": 4,
-        "angleOffset": 0,
+        "sinMag": 1,
+        "sinScl": 5,
+        "angleOffset": 90,
         "sides": 4
       },
       {
