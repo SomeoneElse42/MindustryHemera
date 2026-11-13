@@ -1,6 +1,6 @@
 {
   "type": "Floor",
-  "name": "Dry ice floor",
+  "name": "Dry Ice",
   "variants": 3,
   "itemDrop": "hemera-dry-ice",
   "playerUnmineable": true,
