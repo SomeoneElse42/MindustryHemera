@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Heavy Steel Forge",
-  "description": "Smelts heavy steel from uranium steel, osmium and silicon. Requires additional oxidizer and oxygen.",
+  "description": "Smelts heavy steel from uranium steel, osmium and silicon. Requires reactive fuel to melts metals.",
   "size": 3,
   "health": 1820,
   "squareSprite": false,
@@ -60,11 +60,6 @@
         "osmium/5",
         "silicon/3",
         "reactive-fuel/2"
-      ]
-    },
-    "liquids": {
-      "liquids": [
-        "oxygen/0.2"
       ]
     }
   }
