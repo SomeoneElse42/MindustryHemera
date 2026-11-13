@@ -14,7 +14,7 @@
     "glass/40"
   ],
   "description": "Constantly produces power in the wind. Produces slightly more than the small windmill.",
-  "powerProduction": "1",
+  "powerProduction": "0.8333333333",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
