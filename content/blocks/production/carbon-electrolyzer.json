@@ -19,7 +19,7 @@
     "parent": "carbon-capture",
     "objectives": [
       {
-        "type": "SectorComplete",
+        "type": "OnSector",
         "preset": "rusty-expanse"
       }
     ]
