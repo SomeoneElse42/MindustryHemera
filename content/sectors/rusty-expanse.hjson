@@ -9,6 +9,10 @@ research: {
     {
       type: SectorComplete
       preset: "faultline"
+    },
+    {
+      type: Research
+      content: "sublimator"
     }
   ]
 }
