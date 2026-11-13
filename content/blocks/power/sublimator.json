@@ -38,6 +38,8 @@
       }
     ]
   },
+  "explosionDamage": 30,
+  "explosionRadius": 20,
   "drawer": {
     "type": "DrawMulti",
     "iconOverride": ["-bottom","-rotator",""],
