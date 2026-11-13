@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Reactive Fuel Mixer",
-  "description": "Mixes reactive fuel from perchlorate and graphite. Requires dry ice to cool and choke potential fires. Outputs carbon dioxide as a byproduct.",
+  "description": "Mixes reactive fuel from oxidizer and graphite. Requires dry ice to cool and choke potential fires. Outputs carbon dioxide as a byproduct.",
   "size": 2,
   "health": 360,
   "squareSprite": false,
@@ -53,7 +53,7 @@
     "power": 1.2,
     "items": {
       "items": [
-          "perchlorate/1",
+          "oxidizer/1",
           "graphite/1",
           "dry-ice/1"
         ]
