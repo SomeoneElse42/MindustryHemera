@@ -11,7 +11,7 @@
     "rust/50"
   ],
   "description": "Constantly produces power in the wind.",
-  "powerProduction": "0.2",
+  "powerProduction": "0.1666666666666667",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
