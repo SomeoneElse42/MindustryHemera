@@ -4,5 +4,6 @@
   "variants": 3,
   "itemDrop": "hemera-ice",
   "playerUnmineable": true,
-  "dragMultiplier": 1.5
+  "dragMultiplier": 1.5,
+  "attributes": {"water": 1.2}
 }
