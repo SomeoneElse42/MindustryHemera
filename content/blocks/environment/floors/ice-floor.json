@@ -5,5 +5,5 @@
   "itemDrop": "hemera-ice",
   "playerUnmineable": true,
   "dragMultiplier": 1.5,
-  "attributes": {"water": 1.2}
+  "attributes": {"water": 0.4}
 }
