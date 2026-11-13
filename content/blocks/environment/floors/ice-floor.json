@@ -1,6 +1,6 @@
 {
   "type": "Floor",
-  "name": "Water Ice",
+  "name": "Ice",
   "variants": 3,
   "itemDrop": "hemera-ice",
   "playerUnmineable": true,
