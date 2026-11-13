@@ -39,7 +39,7 @@
   },
   "drawer": {
     "type": "DrawMulti",
-    "iconOverride": ["-icon"],
+    "iconOverride": ["-bottom","-rotator",""],
     "drawers": [
       {
         "type": "DrawRegion",
