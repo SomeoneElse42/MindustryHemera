@@ -1,0 +1,16 @@
+name: Frozen Flats
+description: "An area almost completely frozen over.\nLong term, wind power is unsustainable. Research the sublimator to produce power more efficiently.\nOnly minor enemy presence detected. Focus on producing power and expanding your resource production."
+captureWave: 10
+planet: hemera
+sector: 16
+research: {
+  parent: "faultline"
+  objectives: [
+    {
+      type: SectorComplete
+      preset: "faultline"
+    }
+  ]
+}
+difficulty: 0
+alwaysUnlocked: false
